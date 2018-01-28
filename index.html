@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>关中刀客的学习笔记</title>
+    <link rel="stylesheet" href="asserts/css/normalize.css">
+    <link rel="stylesheet" href="asserts/css/bootstrap.css">
+    <style>
+        .menu ul>li{
+            counter-increment: mycounter;
+        }
+        .menu ul>li:before{
+            content: counter(mycounter)". ";
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <br>
+    <div class="jumbotron">
+        <h1 class="text-center">这里是主页，还没想好名字。。。</h1>
+    </div>
+
+    <br>
+    <h2 class="text-center">目 录</h2>
+    <br>
+    <br>
+    <div class="row menu">
+        <div class="col-md-4 col-md-push-4">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="Css/css3Study"> CSS3基础</a></li>
+                <li class="list-group-item"><a href="Css/css3Practice"> CSS3练习（整理中。。。）</a></li>
+                <li class="list-group-item"><a href="Js/jsBasics/">js基础</a></li>
+                <li class="list-group-item"><a href="Js/jQueryBasics"> jQuery基础（整理中。。。）</a></li>
+                <li class="list-group-item"><a href="projects/dfhzWeb"> 定福黄庄的小窝（建设中。。。）</a></li>
+                <li class="list-group-item"><a href=""> music++（挂起中。。。）</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="asserts/js/jquery-2.2.4.min.js"></script>
+<script>
+    $(function () {
+
+    })
+
+</script>
+</body>
+</html>
