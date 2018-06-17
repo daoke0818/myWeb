@@ -3,69 +3,10 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>关中刀客的学习笔记</title>
-    <link rel="stylesheet" href="asserts/css/bootstrap.css">
-    <style>
-        *, a,
-        a:hover{
-            color: #fff;
-        }
-
-        .list-group-item {
-            background-color: transparent;
-        }
-
-
-        html,body{
-            height: 100%;
-        }
-        header{
-            height: 8rem;
-        }
-        .container{
-            height: calc(100% - 8rem);
-        }
-        .bgVideo {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-        }
-
-        .bgVideo video {
-            width: 100%;
-            height: 100%;
-            object-fit: fill;
-        }
-
-        header h1 {
-            margin-top: 0;
-            padding: 2.5rem;
-            font-weight: bolder;
-            color: #ffca00;
-            letter-spacing: .25rem;
-            font-family: "行楷", "楷体", serif;
-            text-shadow: .125rem .125rem .5rem rgba(0, 0, 0, .6);;
-        }
-        main>section{
-            position: absolute;
-            width: 25rem;
-        }
-        main>section>ul{
-            display: none;
-        }
-        main>section:hover>ul{
-            display: block;
-        }
-        ul > li {
-            counter-increment: mycounter;
-        }
-
-        ul > li:before {
-            content: counter(mycounter) ". ";
-        }
-
-    </style>
+    <meta name=”renderer” content=”webkit”>
+    <title>关中刀客的首页</title>
+    <link rel="stylesheet" href="asserts/css/bootstrap-4.0.0-a6.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="bgVideo">
@@ -75,43 +16,78 @@
     <!--<h1>夕阳无限好&emsp;黄昏又如何</h1>-->
     <h1>夕阳无限好，黄昏又如何？</h1>
 </header>
-<div class="container">
-    <main class="row">
-        <section class="col-md-4 item study">
-            <a href=""><h2 class="text-center">学习笔记</h2></a>
-            <ul class="list-group">
-                <li class="list-group-item"><a href="Css/css3Basics"> CSS3基础</a></li>
-                <li class="list-group-item"><a href="Css/css3Practice"> CSS3练习（整理中。。。）</a></li>
-                <li class="list-group-item"><a href="Js/javaScriptBasics">js基础</a></li>
-                <li class="list-group-item"><a href="Js/jQueryBasics"> jQuery基础（整理中。。。）</a></li>
-                <li class="list-group-item"><a href="projects/dingFuHuangZhuangHome"> 定福黄庄的小窝</a></li>
-                <li class="list-group-item"><a href="projects/quickeningCounter"> 胎动计数器</a></li>
-                <li class="list-group-item"><a href=""> music++（挂起中。。。）</a></li>
-            </ul>
-        </section>
-    </main>
-<!--
-    <div class="row menu">
-        <div class="col-md-4 col-md-push-4">
-            <ul class="list-group">
-                <li class="list-group-item"><a href="Css/css3Basics"> CSS3基础</a></li>
-                <li class="list-group-item"><a href="Css/css3Practice"> CSS3练习（整理中。。。）</a></li>
-                <li class="list-group-item"><a href="Js/javaScriptBasics">js基础</a></li>
-                <li class="list-group-item"><a href="Js/jQueryBasics"> jQuery基础（整理中。。。）</a></li>
-                <li class="list-group-item"><a href="projects/dingFuHuangZhuangHome"> 定福黄庄的小窝</a></li>
-                <li class="list-group-item"><a href="projects/quickeningCounter"> 胎动计数器</a></li>
-                <li class="list-group-item"><a href=""> music++（挂起中。。。）</a></li>
-                <li class="list-group-item"><a href="work/P2P/pages"> 工作测试（P2P小贷）</a></li>
-            </ul>
+<main class="container">
+    <!--<main>-->
+        <div class="row">
+            <section class="col-md-4 item study">
+                <a href=""><h2 class="text-center">学习笔记</h2></a>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="Css/css3Basics"> CSS3基础</a></li>
+                    <li class="list-group-item"><a href="Css/css3Practice"> CSS3练习（整理中。。。）</a></li>
+                    <li class="list-group-item"><a href="Js/javaScriptBasics">js基础</a></li>
+                    <li class="list-group-item"><a href="Js/jQueryBasics"> jQuery基础（整理中。。。）</a></li>
+                </ul>
+            </section>
+            <section class="col-md-4 item project">
+                <a href=""><h2 class="text-center">项目</h2></a>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="projects/dingFuHuangZhuangHome"> 定福黄庄的小窝</a></li>
+                    <li class="list-group-item"><a href="projects/quickeningCounter"> 胎动计数器</a></li>
+                    <li class="list-group-item"><a href=""> music++（挂起中。。。）</a></li>
+                </ul>
+            </section>
+            <section class="col-md-4 item friends">
+                <a href=""><h2 class="text-center">小伙伴们</h2></a>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="">爱因斯坦(待整理)</a></li>
+                    <li class="list-group-item"><a href="">牛顿(待整理)</a></li>
+                    <li class="list-group-item"><a href="">贝多芬(待整理)</a></li>
+                    <li class="list-group-item"><a href="">...</a></li>
+                </ul>
+            </section>
         </div>
-    </div>
--->
-</div>
+        <div class="row">
+            <section class="col-md-4 item link">
+                <a href=""><h2 class="text-center">常用链接</h2></a>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="http://47.88.23.197">civilnet</a></li>
+                    <li class="list-group-item"><a href="https://www.zhihu.com">知乎</a></li>
+                    <li class="list-group-item"><a href="https://weibo.com/778916339">新浪微博</a></li>
+                    <li class="list-group-item"><a href="http://www.chinaw3c.org">w3C中国</a></li>
+                </ul>
+            </section>
+            <section class="col-md-4 item life">
+                <a href=""><h2 class="text-center">代码之外</h2></a>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="https://music.163.com/#/djradio?id=350029457">我的电台</a></li>
+                    <li class="list-group-item"><a href="">文章汇总(待整理)</a></li>
+                    <li class="list-group-item"><a href="">生活缩影(待整理)</a></li>
+                    <li class="list-group-item"><a href="">...</a></li>
+                </ul>
+            </section>
+            <section class="col-md-4 item about">
+                <a href=""><h2 class="text-center">关于</h2></a>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="">网站介绍(待整理)</a></li>
+                    <li class="list-group-item"><a href="">个人简介(待整理)</a></li>
+                    <li class="list-group-item"><a href="">联系方式(待整理)</a></li>
+                    <li class="list-group-item"><a href="">其他(待整理)</a></li>
+                </ul>
+            </section>
+        </div>
+    <!--</main>-->
+
+</main>
 
 <script src="asserts/js/jquery-2.2.4.min.js"></script>
 <script>
     $(function () {
-
+        $(".project a:gt(2), .friends li>a,.about li>a,.life li>a:gt(0)").click(function () {
+            return false;
+        }).css("cursor","not-allowed");
+        $("section.item>a").click(function () {
+            return false;
+        })
     })
 
 </script>
