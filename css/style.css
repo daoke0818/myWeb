@@ -41,6 +41,7 @@ header{
     width: 100%;
     height: 100%;
     object-fit: fill;
+    background-color: #714f00;
 }
 
 header h1 {
@@ -60,17 +61,56 @@ header h1 {
 .container>.row{
     height: 20rem;
 }
+@media screen and (max-width:768px){
+    .container>.row{
+        height:auto;
+    }
+}
 section.item{
     position: relative;
 }
 section.item>a{
 }
 section.item h2{
+    position: relative;
     font-size: 1.5rem;
     color: rgba(255,255,255,1);
     text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .6);
+    animation: h2Animation 3s infinite;
+}
+@media screen and (max-width:768px){
+    section.item h2{
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+    }
+}
+section.item:nth-of-type(2) h2{
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+section.item:nth-of-type(3) h2{
+    animation-duration: 4s;
+}
+.container>.row:nth-of-type(2) section.item h2{
+    animation-delay: 1.5s;
+}
+
+@keyframes h2Animation {
+    from{
+        opacity: 1;
+        top: 0;
+    }
+    38.2%{
+        opacity: .3;
+        top: -1rem;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
 }
 section.item ul{
+    z-index: 1;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -78,9 +118,18 @@ section.item ul{
     width: 20rem;
     text-align: center;
 }
+@media screen and (max-width:768px){
+    section.item ul{
+        position: relative;
+    }
+}
 section.item:hover>ul{
     display: block;
 }
+section.item:hover h2{
+    animation: none;
+}
+
 section.item ul>li>a{
     display: block;
 }
