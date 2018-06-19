@@ -43,7 +43,15 @@ header{
     object-fit: fill;
     background-color: #714f00;
 }
-
+@media screen and (max-width:768px){
+    .bgVideo {
+        background: url("../img/bg_xianer.png");
+        background-size: cover;
+    }
+    .bgVideo video {
+        display: none;
+    }
+}
 header h1 {
     margin-top: 0;
     padding: 2.5rem;
