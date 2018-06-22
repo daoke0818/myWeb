@@ -45,7 +45,7 @@ header{
 }
 @media screen and (max-width:768px){
     .bgVideo {
-        background: url("../img/bg_xianer.png");
+        background: url("../img/bg_xianer.png") 50%;
         background-size: cover;
     }
     .bgVideo video {
@@ -73,6 +73,14 @@ header h1 {
     .container>.row{
         height:auto;
     }
+    .container>.row:first-child {
+        padding-top: 7rem;
+        padding-left: 40%;
+    }
+    .container>.row:last-child {
+        padding-right: 40%;
+        padding-top: 10%;
+    }
 }
 section.item{
     position: relative;
@@ -90,6 +98,7 @@ section.item h2{
     section.item h2{
         margin-bottom: 1rem;
         margin-top: 1.5rem;
+        text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .75);
     }
 }
 section.item:nth-of-type(2) h2{
@@ -129,6 +138,7 @@ section.item ul{
 @media screen and (max-width:768px){
     section.item ul{
         position: relative;
+        width: 16rem;
     }
 }
 section.item:hover>ul{
