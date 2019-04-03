@@ -151,6 +151,13 @@ section.item:hover h2{
 section.item ul>li>a{
     display: block;
 }
+.mainFooter{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: rgba(255,255,255,.72);
+}
+
 /*
 ul > li {
     counter-increment: mycounter;
