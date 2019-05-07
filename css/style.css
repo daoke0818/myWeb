@@ -54,20 +54,27 @@ header .logo img {
 
 .container {
     height: calc(100% - 8rem);
+    padding-top: 4rem;
 }
-
+@media screen and (max-width: 1440px){
+    .container {
+        padding-top: 0;
+    }
+}
 .bgVideo {
     position: fixed;
     width: 100%;
     height: 100%;
     z-index: -1;
+    background: url("../img/bg_body.jpg") no-repeat;
+    background-size: cover;
+    /*object-fit: fill;*/
 }
 
 .bgVideo video {
     width: 100%;
     height: 100%;
     object-fit: fill;
-    background-color: #714f00;
 }
 
 @media screen and (max-width: 768px) {
@@ -98,6 +105,12 @@ header h1 {
 
 .container > .row {
     height: 20rem;
+}
+@media screen and (max-width: 1440px){
+    .container > .row {
+        height: 18rem;
+    }
+
 }
 .container > .row.bottom {
     height: 10rem;
