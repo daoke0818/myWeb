@@ -2,34 +2,60 @@
 
 *,
 a:hover,
-a:visited{
+a:visited {
     color: #fff;
     text-decoration: none;
 }
-a{
-    color: rgba(255,255,255,.75);
-    transition: color 250ms ;
+
+a {
+    color: rgba(255, 255, 255, .75);
+    transition: color 250ms;
 }
+
 .list-group-item {
-    text-shadow: 0.125rem 0.125rem 0.125rem rgba(0,0,0,.5);
-    border: 1px solid rgba(255,255,255,.3);
-    background-color: rgba(0,0,0,.15);
+    text-shadow: 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, .5);
+    border: 1px solid rgba(255, 255, 255, .3);
+    background-color: rgba(0, 0, 0, .15);
 }
+
 .list-group-item:hover {
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0, 0, 0, .4);
 }
-.list-group-item:hover a{
+
+.list-group-item:hover a {
     color: #fff;
 }
-html,body{
+
+html, body {
     height: 100%;
 }
-header{
+@media screen and (max-width:1440px) {
+    html{
+        font-size: 14px;
+    }
+}
+header {
     height: 8rem;
 }
-.container{
+
+header a.logo {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 6rem;
+    /* filter: brightness(1.1); */
+}
+
+header .logo img {
+    display: block;
+    width: 100%;
+}
+
+.container {
     height: calc(100% - 8rem);
 }
+
 .bgVideo {
     position: fixed;
     width: 100%;
@@ -43,15 +69,18 @@ header{
     object-fit: fill;
     background-color: #714f00;
 }
-@media screen and (max-width:768px){
+
+@media screen and (max-width: 768px) {
     .bgVideo {
         background: url("../img/bg_xianer.png") 50%;
         background-size: cover;
     }
+
     .bgVideo video {
         display: none;
     }
 }
+
 header h1 {
     margin-top: 0;
     padding: 2.5rem;
@@ -62,71 +91,92 @@ header h1 {
     text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .6);
 }
 
-.container>.row:first-child{
+.container > .row:first-child {
     padding-top: 4rem;
 
 }
-.container>.row{
+
+.container > .row {
     height: 20rem;
 }
-@media screen and (max-width:768px){
-    .container>.row{
-        height:auto;
+.container > .row.bottom {
+    height: 10rem;
+}
+.top:hover {
+    height: 24rem;
+}
+.top:hover ~ .bottom{
+    height: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container > .row {
+        height: auto;
     }
-    .container>.row:first-child {
+
+    .container > .row:first-child {
         padding-top: 7rem;
         padding-left: 40%;
     }
-    .container>.row:last-child {
+
+    .container > .row:last-child {
         padding-right: 40%;
         padding-top: 10%;
     }
 }
-section.item{
+
+section.item {
     position: relative;
 }
-section.item>a{
+
+section.item > a {
 }
-section.item h2{
+
+section.item h2 {
     position: relative;
     font-size: 1.5rem;
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
     text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .6);
     animation: h2Animation 3s infinite;
 }
-@media screen and (max-width:768px){
-    section.item h2{
+
+@media screen and (max-width: 768px) {
+    section.item h2 {
         margin-bottom: 1rem;
         margin-top: 1.5rem;
         text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .75);
     }
 }
-section.item:nth-of-type(2) h2{
+
+section.item:nth-of-type(2) h2 {
     animation-duration: 5s;
     animation-delay: 1s;
 }
-section.item:nth-of-type(3) h2{
+
+section.item:nth-of-type(3) h2 {
     animation-duration: 4s;
 }
-.container>.row:nth-of-type(2) section.item h2{
+
+.container > .row:nth-of-type(2) section.item h2 {
     animation-delay: 1.5s;
 }
 
 @keyframes h2Animation {
-    from{
+    from {
         opacity: 1;
         top: 0;
     }
-    38.2%{
+    38.2% {
         opacity: .3;
         top: -1rem;
     }
-    to{
+    to {
         opacity: 1;
         top: 0;
     }
 }
-section.item ul{
+
+section.item ul {
     z-index: 1;
     position: absolute;
     left: 50%;
@@ -135,27 +185,36 @@ section.item ul{
     width: 20rem;
     text-align: center;
 }
-@media screen and (max-width:768px){
-    section.item ul{
+
+@media screen and (max-width: 768px) {
+    section.item ul {
         position: relative;
         width: 16rem;
     }
 }
-section.item:hover>ul{
+
+section.item:hover > ul {
     display: block;
-}
-section.item:hover h2{
-    animation: none;
 }
 
-section.item ul>li>a{
-    display: block;
+section.item:hover h2 {
+    animation: none;
 }
-.mainFooter{
+section.item ul > li{
+    padding: 0;
+}
+section.item ul > li > a {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem 1.25rem;
+}
+
+.mainFooter {
     position: fixed;
     width: 100%;
     bottom: 0;
-    color: rgba(255,255,255,.72);
+    color: rgba(255, 255, 255, .72);
 }
 
 /*
