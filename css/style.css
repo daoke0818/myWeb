@@ -29,6 +29,11 @@ a {
 html, body {
     height: 100%;
 }
+body:not(#index) .bgVideo{
+    filter: blur(.25rem);
+    /*background: url(../img/bg_body.jpg) no-repeat;*/
+    /*background-size: cover;*/
+}
 @media screen and (max-width:1440px) {
     html{
         font-size: 14px;
