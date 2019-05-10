@@ -1,20 +1,33 @@
 @charset "utf-8";
 
-body:not(#index) .bgVideo{
+body:not(#index) .bgVideo {
     filter: blur(.25rem);
     /*background: url(../img/bg_body.jpg) no-repeat;*/
     /*background-size: cover;*/
 }
-@media screen and (max-width:1440px) {
-    html{
+
+@media screen and (max-width: 1440px) {
+    html {
         font-size: 14px;
     }
 }
-body{
+ol{
+    padding: 0;
+}
+body {
     color: #fff;
 }
+
 header {
     height: 8rem;
+}
+
+:not(#index) a {
+    color: lightskyblue;
+}
+
+:not(#index) a:hover {
+    color: deepskyblue;
 }
 
 header a.logo {
@@ -57,6 +70,7 @@ header h1 {
     height: 100%;
     object-fit: fill;
 }
+
 @media screen and (max-width: 768px) {
     .bgVideo {
         background: url("../img/bg_xianer.png") 50%;
@@ -70,20 +84,22 @@ header h1 {
 
 .container {
     padding-top: 4rem;
+    border-radius: 1rem;
 }
-@media screen and (max-width: 1440px){
+
+@media screen and (max-width: 1440px) {
     .container {
         padding-top: 0;
+        border-radius: 0;
     }
 }
 
 
-
-
-
 .mainFooter {
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    height: 4rem;
+    line-height: 2rem;
     color: rgba(255, 255, 255, .72);
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .63));
+    box-shadow: 0 -0.25rem 0.5rem rgba(0, 0, 0, .63);
 }
