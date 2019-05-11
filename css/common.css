@@ -5,10 +5,18 @@ body:not(#index) .bgVideo {
     /*background: url(../img/bg_body.jpg) no-repeat;*/
     /*background-size: cover;*/
 }
+html {
+    font-size: 14px;
+}
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     html {
-        font-size: 14px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 321px) {
+    html {
+        font-size: 12px;
     }
 }
 ol{
@@ -22,11 +30,11 @@ header {
     height: 8rem;
 }
 
-:not(#index) a {
+body:not(#index) a {
     color: lightskyblue;
 }
 
-:not(#index) a:hover {
+body:not(#index) a:hover {
     color: deepskyblue;
 }
 
@@ -71,7 +79,7 @@ header h1 {
     object-fit: fill;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .bgVideo {
         background: url("../img/bg_xianer.png") 50%;
         background-size: cover;
@@ -87,7 +95,7 @@ header h1 {
     border-radius: 1rem;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
     .container {
         padding-top: 0;
         border-radius: 0;
@@ -102,4 +110,12 @@ header h1 {
     color: rgba(255, 255, 255, .72);
     background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .63));
     box-shadow: 0 -0.25rem 0.5rem rgba(0, 0, 0, .63);
+}
+@media screen and (max-width: 767px) {
+    .mainFooter {
+        height: 3.5rem;
+        line-height: 1.25rem;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .36), rgba(0, 0, 0, 1) 90%);
+        box-shadow: 0 -0.25rem 0.5rem rgba(0, 0, 0, .9);
+    }
 }
