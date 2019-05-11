@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=”renderer” content=”webkit”>
     <title>关中刀客在青岛</title>
-    <link rel="stylesheet" href="../asserts/css/bootstrap-4.0.0-a6.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_880295_rjcffpyn54o.css">
+    <link rel="stylesheet" href="../asserts/css/bootstrap-4.3.1.min.css">
     <link rel="stylesheet" href="../css/common.css">
     <style>
         .container {
@@ -15,6 +16,10 @@
             background: rgba(0, 0, 0, .5);
 
         }
+        /*.container:before{
+            content: '';
+            overflow: hidden;
+        }*/
         @media screen and (max-width: 767px) {
             .container {
                 margin-bottom: 0;
@@ -42,13 +47,28 @@
             }
         }
         ol{
-            padding:1rem
-        }
-        ol,ol ol{
-            margin-bottom: 1rem;
+            padding-left:1rem
         }
         ol ol{
-            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .contact-item{
+            text-align: center;
+            color: lightskyblue;
+            display: block;
+            padding-bottom: .25rem;
+            border-radius: 1rem;
+            transition: all .33s;
+        }
+       .contact-item i{
+            font-size: 4rem;
+        }
+        .contact-item:hover{
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.93);
+        }
+       .contact-item:hover i.i-sina{
+           color: #e6162d;
         }
     </style>
 </head>
@@ -56,42 +76,72 @@
 <div class="bgVideo">
     <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛的博客首页</h1>
 </div>
-<header class="hidden-sm-down">
-    <h1 class="text-center">夕阳无限好，<br class=" d-md-none">黄昏又如何？</h1>
-    <a href="http://e-art.top" class="logo" title="关中刀客在青岛">
-        <img src="../img/logo_v0.1_w.png" alt="logo">
+<nav class="navbar navbar-expand-md navbar-dark mb-md-5">
+    <a class="navbar-brand" href="../index.html" title="关中刀客在青岛">
+        <img class="mt-2 mb-3" src="../img/logo_v0.1_w.png" alt="logo">
     </a>
-</header>
-<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="note" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    学习笔记
+                </a>
+                <div class="dropdown-menu" aria-labelledby="note">
+                    <a class="dropdown-item" href="http://e-art.top/Css/css3Basics">CSS3基础</a>
+                    <a class="dropdown-item" href="http://e-art.top/Css/css3Practice">CSS3练习</a>
+                    <a class="dropdown-item" href="http://e-art.top/Js/jsBasics">js基础</a>
+                    <a class="dropdown-item" href="http://e-art.top/Js/jQueryBasics">jQuery基础</a>
+                    <a class="dropdown-item" href="http://e-art.top/Js/vueStudy_liuguodong">vue（2.5.x）基础</a>
+                </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
+                <a class="nav-link dropdown-toggle" href="#" id="projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    项目
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-menu" aria-labelledby="projects">
+                    <a class="dropdown-item" href="http://e-art.top/projects/bigScreenCharts">可视化大屏图表demo</a>
+                    <a class="dropdown-item" href="http://e-art.top/projects/yigonglianmeng">北京义工联盟</a>
+                    <a class="dropdown-item" href="http://e-art.top/projects/dingFuHuangZhuangHome">定福黄庄的小窝</a>
+                    <a class="dropdown-item" href="http://e-art.top/projects/quickeningCounter">胎动计数器（半成品）</a>
+                    <a class="dropdown-item" style="pointer-events: none" href="#">music++（挂起中。。。）</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="friends" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    小伙伴们
+                </a>
+                <div class="dropdown-menu" aria-labelledby="friends">
+                    <a class="dropdown-item" href="https://blog.csdn.net/fuhtead">fuhtead的博客</a>
+                    <a class="dropdown-item" href="https://zhuanlan.zhihu.com/gemfield">Gemfield的深度学习专栏</a>
+                    <a class="dropdown-item" href="http://e-art.top/projects/dingFuHuangZhuangHome">待添加。。</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="links" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    常用链接
+                </a>
+                <div class="dropdown-menu" aria-labelledby="links">
+                    <a class="dropdown-item" href="https://music.163.com/#/djradio?id=350029457">我的音乐电台</a>
+                    <a class="dropdown-item" style="pointer-events: none">文章汇总(待整理)</a>
+                    <a class="dropdown-item" style="pointer-events: none">生活缩影(待整理)</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="withoutCode" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    代码之外
+                </a>
+                <div class="dropdown-menu" aria-labelledby="withoutCode">
+                    <a class="dropdown-item disabled" style="pointer-events: none">网站介绍(待整理)</a>
+                    <a class="dropdown-item" href="about.html">个人介绍</a>
                 </div>
             </li>
         </ul>
     </div>
-</nav>-->
-<main class="container m-md-3">
+</nav>
+<main class="container">
     <div class="row">
         <div class="col-md-6">
             <h2>关于作者</h2>
@@ -104,9 +154,29 @@
             <p>不抽烟，很少喝酒而且反感劝酒恶习，素食主义，不喜欢油多的食物，也不喜欢浪费食物，不喜欢和有心机的人打交道，不喜欢重复无创新的劳动，不喜欢浪费时间，从来没有觉得无聊过。
             <p>业余时间喜欢点音乐、户外运动、去图书馆，但现在很少有业余时间。
             <p>我是个80后，但有同事说我是90后外表70后的思想。
-            <p>
+            <br>
+            <br>
+            <h2>联系方式</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a class="contact-item" href="https://github.com/daoke0818"><i class="iconfont i-github"><p>Github</p></i></a>
+                </div>
+                <div class="col-4">
+                    <a class="contact-item" href="https://gitee.com/daoke0818"><i class="iconfont i-gitee"><p>码云</p></i></a>
+                </div>
+                <div class="col-4">
+                    <a class="contact-item" href="https://weibo.com/daoke0818"><i class="iconfont i-sina"><p>新浪微博</p></i></a>
+                </div>
+               <div class="col-4">
+                    <a class="contact-item" href="https://www.zhihu.com/people/daoke0818"><i class="iconfont i-zhihu"><p>知乎</p></i></a>
+                </div>
+                <div class="col-4">
+                    <a class="contact-item" href="https://music.163.com/#/user/home?id=403753454"><i class="iconfont i-wangyiyunyinyue"><p>网易云音乐</p></i></a>
+                </div>
+            </div>
         </div>
         <div class="col-md-6">
+            <br class="d-sm-none">
             <h2>未来100年计划：</h2>
             <ol class="px-sm-2 px-md-3">
                 <li>还能敲动代码的时候，如果没有意外，除了带孩子长大，还想：
@@ -129,7 +199,7 @@
                         <li>去久仰的江南水乡，躺在船上听夜半钟声看巴金繁星
                         <li>摆地摊卖书，不过随着电子书发展，这个可能性在减小
                         <li>捡破烂并从中制造出有用或好玩的东西或乐器，像这种：<a target="_blank" href="http://music.163.com/video/1255F827E19C35D6E31041EC33F4A81A/?userid=403753454">街头艺人用塑料管演奏音乐</a>
-                        <li>街头卖艺，弹吉他，拉二胡，吹笛子、口琴、埙、萧等等乐器，若有同行则可组建乐队，比如<a target="_blank" href="http://music.163.com/video/6E2C606CDD65E1DC36E02E0A1FD2CAB0/?userid=403753454">点击这里观看</a>
+                        <li>街头卖艺，弹吉他，拉二胡，吹笛子、口琴、埙、萧等等乐器，若有同行则可组建乐队，比如：<a target="_blank" href="http://music.163.com/video/6E2C606CDD65E1DC36E02E0A1FD2CAB0/?userid=403753454">一伙老头的天籁之音</a>
 
                     </ol>
                 <li>如果还健在，也就是不只活着还要能自如活动：
@@ -144,12 +214,11 @@
 
 
 </main>
-<footer class="text-center py-3 mainFooter">
-    © 2019 关中刀客在青岛 <a href="http://www.beian.miit.gov.cn" target="_blank"> 鲁ICP备19013610号 </a>
-</footer>
+<footer></footer>
 
 <script src="../asserts/js/jquery-2.2.4.min.js"></script>
-<script src="../asserts/js/bootstrap.js"></script>
+<script src="../js/common.js"></script>
+<script src="../asserts/js/bootstrap-4.3.1.min.js"></script>
 <script>
     $(function () {
         
