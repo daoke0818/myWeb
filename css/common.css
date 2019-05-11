@@ -52,12 +52,37 @@ body>.navbar{
 .navbar .dropdown-menu{
     background: rgba(0,0,0,.63);
 }
+@keyframes logoAnimation {
+    from{
+        transform:skew(0) scale(1);
+    }
+    25%{
+        transform:skewX(1deg) rotateX(30deg) scale(.9);
+    }
+    40%{
+        transform:scale(.85);
+        opacity:.7
+    }
+    60%{
+        transform:skewX(-15deg) skewY(-10deg);
+    }
+    70%{
+        transform:skewX(-15deg) skewY(-10deg) rotateZ(10deg);
+    }
+    90%{
+        transform:skewY(5deg);
+    }
+    to{
+        transform: skew(0) scale(1);
+    }
+}
 .navbar .navbar-brand{
     width: 4rem;
 }
 .navbar .navbar-brand img{
     display: block;
     width: 100%;
+    animation: 20s logoAnimation infinite ease;
 }
 header a.logo {
     display: block;
@@ -71,8 +96,8 @@ header a.logo {
 header .logo img {
     display: block;
     width: 100%;
+    animation: 18s logoAnimation infinite ease;
 }
-
 header h1 {
     margin-top: 0;
     padding: 2.5rem;
