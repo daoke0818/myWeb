@@ -33,7 +33,12 @@ html, body {
 .container {
     height: calc(100% - 12rem);
 }
+@media screen and (max-width: 767px) {
+    .container {/*首页没有导航*/
+        height: calc(100% - 4rem);
+    }
 
+}
 .container > .row:first-child {
     padding-top: 4rem;
 
@@ -42,7 +47,7 @@ html, body {
 .container > .row {
     height: 20rem;
 }
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1439px){
     .container > .row {
         height: 18rem;
     }
@@ -58,8 +63,8 @@ html, body {
     height: 6rem;
 }
 
-@media screen and (max-width: 768px) {
-    .container > .row {
+@media screen and (max-width: 767px) {
+    #index .container > .row {
         height: auto;
     }
 
@@ -89,7 +94,7 @@ section.item h2 {
     animation: h2Animation 3s infinite;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     section.item h2 {
         margin-bottom: 1rem;
         margin-top: 1.5rem;
@@ -135,7 +140,7 @@ section.item ul {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     section.item ul {
         position: relative;
         width: 16rem;
@@ -158,7 +163,12 @@ section.item ul > li > a {
     text-align: left;
     padding: 0.75rem 1.25rem;
 }
-
+@media screen and (max-width: 767px) {
+    .mainFooter{
+        position: fixed;
+        bottom: 0;
+    }
+}
 
 /*
 ul > li {
