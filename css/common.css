@@ -29,7 +29,9 @@ ol{
 body {
     color: #fff;
 }
-
+html, body {
+    height: 100%;
+}
 header {
     height: 8rem;
 }
@@ -116,7 +118,7 @@ header h1 {
     z-index: -1;
     background: url("../img/bg_body.jpg") no-repeat;
     background-size: cover;
-    /*object-fit: fill;*/
+    transform: scale(1.01);/*修复模糊造成的白边*/
 }
 
 .bgVideo video {
@@ -139,6 +141,7 @@ header h1 {
 .container {
     padding-top: 4rem;
     border-radius: 1rem;
+    min-height: calc(100% - 16rem);
 }
 
 @media screen and (max-width: 767px) {
