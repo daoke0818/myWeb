@@ -26,8 +26,20 @@ html {
 ol{
     padding: 0;
 }
+@keyframes bodyEase{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+  }
 body {
     color: #fff;
+    background-color: #000;
+}
+#container,#mainNav{
+    animation: .63s bodyEase ease;
 }
 html, body {
     height: 100%;
@@ -54,12 +66,16 @@ body>.navbar{
 .navbar .dropdown-menu{
     background: rgba(0,0,0,.63);
 }
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.33);
+}
+/*风筝动画*/
 @keyframes logoAnimation {
     from{
         transform:skew(0) scale(1);
     }
     25%{
-        transform:skewX(1deg) rotateX(30deg) scale(.9);
+        transform:skewX(1deg) rotateX(30deg) scale(.9) translate(-.125rem,-.25rem);
     }
     40%{
         transform:scale(.85);
