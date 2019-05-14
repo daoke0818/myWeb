@@ -34,7 +34,8 @@ html, body {
 }
 @media screen and (max-width: 767px) {
     .container {/*首页没有导航*/
-        height: calc(100% - 3rem);
+        height: auto;
+        padding-bottom: 4rem;
     }
 
 }

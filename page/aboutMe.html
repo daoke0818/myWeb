@@ -6,7 +6,7 @@
     <meta name=”renderer” content=”webkit”>
     <title>关中刀客在青岛</title>
     <link rel="stylesheet" href="//at.alicdn.com/t/font_880295_rjcffpyn54o.css">
-    <link rel="stylesheet" href="../asserts/css/bootstrap-4.3.1.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-4.3.1.min.css">
     <link rel="stylesheet" href="../css/common.css">
     <style>
         .container {
@@ -16,10 +16,6 @@
             background: rgba(0, 0, 0, .5);
 
         }
-        /*.container:before{
-            content: '';
-            overflow: hidden;
-        }*/
         @media screen and (max-width: 767px) {
             .container {
                 margin-bottom: 0;
@@ -70,77 +66,25 @@
        .contact-item:hover i.i-sina{
            color: #e6162d;
         }
+       .contact-item:hover i.i-gitee{
+           color: #c71d23;
+        }
+       .contact-item:hover i.i-github{
+           color: #24292e;
+        }
+        .contact-item:hover i.i-zhihu{
+           color: #0084ff;
+        }
+        .contact-item:hover i.i-wangyiyunyinyue{
+           color: #e60026;
+        }
     </style>
 </head>
 <body id="about">
 <div class="bgVideo">
     <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛的博客首页</h1>
 </div>
-<nav class="navbar navbar-expand-md navbar-dark mb-md-5">
-    <a class="navbar-brand" href="../index.html" title="关中刀客在青岛">
-        <img src="../img/logo_v0.1_w.png" alt="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="note" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    学习笔记
-                </a>
-                <div class="dropdown-menu" aria-labelledby="note">
-                    <a class="dropdown-item" href="http://e-art.top/Css/css3Basics">CSS3基础</a>
-                    <a class="dropdown-item" href="http://e-art.top/Css/css3Practice">CSS3练习</a>
-                    <a class="dropdown-item" href="http://e-art.top/Js/jsBasics">js基础</a>
-                    <a class="dropdown-item" href="http://e-art.top/Js/jQueryBasics">jQuery基础</a>
-                    <a class="dropdown-item" href="http://e-art.top/Js/vueStudy_liuguodong">vue（2.5.x）基础</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    项目
-                </a>
-                <div class="dropdown-menu" aria-labelledby="projects">
-                    <a class="dropdown-item" href="http://e-art.top/projects/bigScreenCharts">可视化大屏图表demo</a>
-                    <a class="dropdown-item" href="http://e-art.top/projects/yigonglianmeng">北京义工联盟</a>
-                    <a class="dropdown-item" href="http://e-art.top/projects/dingFuHuangZhuangHome">定福黄庄的小窝</a>
-                    <a class="dropdown-item" href="http://e-art.top/projects/quickeningCounter">胎动计数器（半成品）</a>
-                    <a class="dropdown-item" style="pointer-events: none" href="#">music++（挂起中。。。）</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="friends" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    小伙伴们
-                </a>
-                <div class="dropdown-menu" aria-labelledby="friends">
-                    <a class="dropdown-item" href="https://blog.csdn.net/fuhtead">fuhtead的博客</a>
-                    <a class="dropdown-item" href="https://zhuanlan.zhihu.com/gemfield">Gemfield的深度学习专栏</a>
-                    <a class="dropdown-item disabled" href="http://e-art.top/projects/dingFuHuangZhuangHome">待添加。。</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="links" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    常用链接
-                </a>
-                <div class="dropdown-menu" aria-labelledby="links">
-                    <a class="dropdown-item" href="https://music.163.com/#/djradio?id=350029457">我的音乐电台</a>
-                    <a class="dropdown-item disabled">文章汇总(待整理)</a>
-                    <a class="dropdown-item disabled">生活缩影(待整理)</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="withoutCode" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    代码之外
-                </a>
-                <div class="dropdown-menu" aria-labelledby="withoutCode">
-                    <a class="dropdown-item disabled" style="pointer-events: none">网站介绍(待整理)</a>
-                    <a class="dropdown-item" href="about.html">个人介绍</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
+<nav id="mainNav" class="navbar navbar-expand-md navbar-dark mb-md-5"></nav>
 <main class="container">
     <div class="row">
         <div class="col-md-6">
@@ -159,19 +103,19 @@
             <h2>联系方式</h2>
             <div class="row">
                 <div class="col-4">
-                    <a class="contact-item" href="https://github.com/daoke0818"><i class="iconfont i-github"><p>Github</p></i></a>
+                    <a class="contact-item" target="_blank" href="https://github.com/daoke0818"><i class="iconfont i-github"><p>Github</p></i></a>
                 </div>
                 <div class="col-4">
-                    <a class="contact-item" href="https://gitee.com/daoke0818"><i class="iconfont i-gitee"><p>码云</p></i></a>
+                    <a class="contact-item" target="_blank" href="https://gitee.com/daoke0818"><i class="iconfont i-gitee"><p>码云</p></i></a>
                 </div>
                 <div class="col-4">
                     <a class="contact-item" target="_blank" href="https://weibo.com/daoke0818"><i class="iconfont i-sina"><p>新浪微博</p></i></a>
                 </div>
                <div class="col-4">
-                    <a class="contact-item" href="https://www.zhihu.com/people/daoke0818"><i class="iconfont i-zhihu"><p>知乎</p></i></a>
+                    <a class="contact-item" target="_blank" href="https://www.zhihu.com/people/daoke0818"><i class="iconfont i-zhihu"><p>知乎</p></i></a>
                 </div>
                 <div class="col-4">
-                    <a class="contact-item" href="https://music.163.com/#/user/home?id=403753454"><i class="iconfont i-wangyiyunyinyue"><p>网易云音乐</p></i></a>
+                    <a class="contact-item" target="_blank" href="https://music.163.com/#/user/home?id=403753454"><i class="iconfont i-wangyiyunyinyue"><p>网易云音乐</p></i></a>
                 </div>
             </div>
         </div>
@@ -187,7 +131,6 @@
                         <li>在人工智能和影视后期结合的地方搞点事情
                         <li>如果有机会，搞个菜夹馍品牌，可量身为程序猿打造，通过包装袋上的二维码可参加各种代码活动，顺便传播点正能量。
                     </ol>
-
                 <li>如果退休，可能：
                     <ol>
                         <li>接着搞菜夹馍
@@ -200,35 +143,22 @@
                         <li>摆地摊卖书，不过随着电子书发展，这个可能性在减小
                         <li>捡破烂并从中制造出有用或好玩的东西或乐器，像这种：<a target="_blank" href="http://music.163.com/video/1255F827E19C35D6E31041EC33F4A81A/?userid=403753454">街头艺人用塑料管演奏音乐</a>
                         <li>街头卖艺，弹吉他，拉二胡，吹笛子、口琴、埙、萧等等乐器，若有同行则可组建乐队，比如：<a target="_blank" href="http://music.163.com/video/6E2C606CDD65E1DC36E02E0A1FD2CAB0/?userid=403753454">一伙老头的天籁之音</a>
-
                     </ol>
                 <li>如果还健在，也就是不只活着还要能自如活动：
                     <ol>
-                        <li>打造一个属于自己的空间——租个稍大点的房子，除了能放下一些乐器(包括自制的)和电脑，还能放个睡觉的床。闲余之时可以泡个茶，听个古典音乐，弹个古筝，品味一下佛家哲学，打个坐。
+                        <li>打造一个属于自己的空间——租个稍大点的房子，除了能放下一些乐器(包括自制的)和电脑，还能放个睡觉的床。闲余之时可以泡个茶，听个古典音乐，弹个古筝，品味一下佛家哲学，打个坐修个身。
                         <li>如果到时候租不起房子，也可去终南山或崂山“独坐幽篁里，弹琴复长啸；深林人不知，明月来相照”
                         <li>如果深山有去不成的原因，就去找个师傅指点一下做个云游客，体验“口中食得清和味，身上常披百衲衣；五湖四海为上客，逍遥殿前任君嘻”
                     </ol>
             </ol>
         </div>
     </div>
-
-
 </main>
 <footer></footer>
-
-<script src="../asserts/js/jquery-2.2.4.min.js"></script>
+<script src="../assets/js/jquery-2.2.4.min.js"></script>
 <script src="../js/common.js"></script>
-<script src="../asserts/js/bootstrap-4.3.1.min.js"></script>
+<script src="../assets/js/bootstrap-4.3.1.min.js"></script>
 <script>
-    $(function () {
-        
-        // $(".project a:gt(3)").click(function () {
-        //     return false;
-        // }).css("cursor","not-allowed");
-        $("section.item>a").click(function () {
-            return false;
-        })
-    })
 
 </script>
 </body>
