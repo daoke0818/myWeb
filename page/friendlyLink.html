@@ -9,84 +9,7 @@
     <link rel="stylesheet" href="../assets/css/bootstrap-4.3.1.min.css">
     <link rel="stylesheet" href="../css/common.css">
     <style>
-        .container {
-            margin-bottom: 6rem;
-            padding: 2rem;
-            height: auto;
-            background: rgba(0, 0, 0, .5);
 
-        }
-
-        /*.container:before{
-            content: '';
-            overflow: hidden;
-        }*/
-        @media screen and (max-width: 767px) {
-            .container {
-                margin-bottom: 0;
-            }
-        }
-
-        .container .row {
-            height: auto;
-        }
-
-        h2 {
-            margin-top: .5rem;
-            margin-bottom: 2rem;
-        }
-
-        h4 {
-            margin: 1rem 0 2rem;
-        }
-
-        p, li {
-            font-size: 16px;
-        }
-
-        .col-md-6 {
-            padding: 0 2rem;
-        }
-
-        @media screen and (max-width: 767px) {
-            .col-md-6 {
-                padding: 0 .5rem;
-            }
-        }
-
-        ol {
-            padding-left: 1rem
-        }
-
-        ol ol {
-            margin-bottom: 1rem;
-        }
-
-        .contact-item {
-            text-align: center;
-            color: lightskyblue;
-            display: block;
-            padding-bottom: .25rem;
-            border-radius: 1rem;
-            transition: all .33s;
-        }
-
-        .contact-item i {
-            font-size: 4rem;
-        }
-
-        .contact-item:hover {
-            text-decoration: none;
-            background: rgba(255, 255, 255, 0.93);
-        }
-
-        .contact-item:hover i.i-sina {
-            color: #e6162d;
-        }
-
-        .col-md-6 {
-            padding: 0 1rem;
-        }
         a.item {
             position: relative;
             display: block;
@@ -98,10 +21,23 @@
 
         }
 
+        @keyframes shadows{
+            13%{
+                box-shadow: 0 0 0.25rem #d18761;
+            }
+            63%{
+                box-shadow: 0 0 1rem .25rem #ffa870;
+            }
+            to{
+                box-shadow: 0 0 0.25rem #d18761;
+            }
+        }
         a.item:hover {
             left: 0.125rem;
             top: 0.125rem;
             box-shadow: 0 0 0.25rem #d18761;
+            animation:  box-shadow 3s ease infinite;
+            animation-name: shadows;
         }
 
         .item img {

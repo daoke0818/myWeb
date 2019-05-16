@@ -6,21 +6,19 @@
 }
 body:not(#index) .bgVideo {
     filter: blur(.25rem);
-    /*background: url(../img/bg_body.jpg) no-repeat;*/
-    /*background-size: cover;*/
 }
 html {
     font-size: 14px;
 }
-
-@media screen and (min-width: 1440px) {
-    html {
-        font-size: 18px;
-    }
-}
 @media screen and (max-width: 321px) {
     html {
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 16px;
     }
 }
 ol{
@@ -38,9 +36,6 @@ body {
     color: #fff;
     background-color: #000;
 }
-#container,#mainNav{
-    animation: .63s bodyEase ease;
-}
 html, body {
     height: 100%;
 }
@@ -57,11 +52,15 @@ body:not(#index) a:hover {
 }
 body>.navbar{
     z-index: 10;
-    /*height: 3rem;*/
-    /*line-height: 3rem;*/
+    height: 4rem;
     color: rgba(255, 255, 255, .72);
     background: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .63));
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, .33);
+}
+@media screen and (max-width: 767px) {
+    body>.navbar {
+        height: auto;
+    }
 }
 .navbar .dropdown-menu{
     background: rgba(0,0,0,.63);
@@ -102,29 +101,6 @@ body>.navbar{
     width: 100%;
     animation: 20s logoAnimation infinite ease;
 }
-header a.logo {
-    display: block;
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    width: 6rem;
-    /* filter: brightness(1.1); */
-}
-
-header .logo img {
-    display: block;
-    width: 100%;
-    animation: 18s logoAnimation infinite ease;
-}
-header h1 {
-    margin-top: 0;
-    padding: 2.5rem;
-    font-weight: bolder;
-    color: #ffd353d1;;
-    letter-spacing: .25rem;
-    font-family: "行楷", "楷体", serif;
-    text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .6);
-}
 
 
 .bgVideo {
@@ -153,36 +129,35 @@ header h1 {
         display: none;
     }
 }
+.container,#mainNav{
+    animation: .63s bodyEase ease;
+}
 
 .container {
-    padding-top: 4rem;
+    margin-bottom: 6rem;
+    padding: 2rem;
     border-radius: 1rem;
     min-height: calc(100% - 16rem);
+    background: rgba(0, 0, 0, .5);
 }
+
 
 @media screen and (max-width: 767px) {
     .container {
+        margin-bottom: 0;
         padding-top: 0;
         border-radius: 0;
-    }
-}
-@media (min-width: 576px) and (max-width: 767px){
-    .container {
         max-width: initial;
     }
 }
-.list-group-item.disabled{
-    background: transparent;
+
+.container .row{
+    height: auto;
 }
-
-
-
-
-
-
-
-
-
+h2{
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
 
 
 .mainFooter {

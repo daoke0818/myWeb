@@ -9,81 +9,6 @@
     <link rel="stylesheet" href="../assets/css/bootstrap-4.3.1.min.css">
     <link rel="stylesheet" href="../css/common.css">
     <style>
-        .container {
-            margin-bottom: 6rem;
-            padding: 2rem;
-            height: auto;
-            background: rgba(0, 0, 0, .5);
-
-        }
-
-        /*.container:before{
-            content: '';
-            overflow: hidden;
-        }*/
-        @media screen and (max-width: 767px) {
-            .container {
-                margin-bottom: 0;
-            }
-        }
-
-        .container .row {
-            height: auto;
-        }
-
-        h2 {
-            margin-top: .5rem;
-            margin-bottom: 2rem;
-        }
-
-        h4 {
-            margin: 1rem 0 2rem;
-        }
-
-        p, li {
-            font-size: 16px;
-        }
-
-        .col-md-6 {
-            padding: 0 2rem;
-        }
-
-        @media screen and (max-width: 767px) {
-            .col-md-6 {
-                padding: 0 .5rem;
-            }
-        }
-
-        ol {
-            padding-left: 1rem
-        }
-
-        ol ol {
-            margin-bottom: 1rem;
-        }
-
-        .contact-item {
-            text-align: center;
-            color: lightskyblue;
-            display: block;
-            padding-bottom: .25rem;
-            border-radius: 1rem;
-            transition: all .33s;
-        }
-
-        .contact-item i {
-            font-size: 4rem;
-        }
-
-        .contact-item:hover {
-            text-decoration: none;
-            background: rgba(255, 255, 255, 0.93);
-        }
-
-        .contact-item:hover i.i-sina {
-            color: #e6162d;
-        }
-
         .logoPhoto{
             box-shadow: 0.25rem 0.25rem 0.5rem rgba(0,0,0,.63);
             border: .5rem solid rgba(255,255,255,.33);
@@ -101,19 +26,19 @@
 <nav id="mainNav" class="navbar navbar-expand-md navbar-dark mb-md-5"></nav>
 <main class="container">
     <div class="row">
-        <div class="col-md-6">
-            <h2>关于博客</h2>
+        <div class="col-md-6 px-2 px-md-4">
+            <h2 class="mt-5 mt-md-2">关于博客</h2>
             <p>本博客以我个人的学习笔记和生活相关记录为主要内容。因本人从事前端开发，所以前端相关内容会多一些；又因兴趣广泛，涉及到的范围会逐渐扩展。
             <p>限于经验水平，这些笔记在大牛眼中可能都是小儿科，但对于初学者可能会有一定帮助。
                 尤其是多数笔记可以即时观察代码在页面上的执行过程与结果，可以快速了解相关技术或进行部分测试，而不像网上很多笔记一样只有代码或只配有截图。
             <p>所有学习过程几乎都在Chrome上进行，未做其他浏览器的兼容性测试或学习。个人觉得应该把宝贵而有限的时间精力投入到主流开发环境中提升更有意义的技术。
             <p>由于这是一个纯前端的静态网站，所以暂时不提供留言板功能。请有意联系的小伙伴们通过个人介绍中的社交账号或本人邮箱daoke_li@qq.com留言，项目中有好的建议可以写在issue中。
-            <div class="logoPhoto mt-md-5">
+            <div hidden class="logoPhoto mt-md-5 d-md-block">
                 <img src="../img/logo_v0.1_w.png" alt="">
             </div>
         </div>
-        <div class="col-md-6">
-            <h2>关于logo</h2>
+        <div class="col-md-6 px-2 px-md-4">
+            <h2 class="mt-4 mt-md-2">关于logo</h2>
             <p>博客logo来自于4年前父亲节时，我翻唱的<a href="https://music.163.com/#/djradio?id=350029457" target="_blank">《三月三》</a>这首歌曲里所作的配图中的风筝。
             <p>
                 小时候，我和小伙伴们喜欢跑在开春的麦地里放风筝。那时家庭生活简朴，很少买风筝这样跟学习没有直接关系的东西，我就带着弟弟妹妹和其他一些小伙伴们自己做风筝，用竹条或芦苇条当骨架贴上塑料纸或种庄稼用的地膜，吊一根长长的尾巴，绑上线就去地里试跑。
