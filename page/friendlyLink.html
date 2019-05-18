@@ -14,53 +14,64 @@
             columns: 10rem 6;
             column-gap: .75rem;
         }
-        .card{
-            display:inline-block;
+
+        .card {
+            display: inline-block;
             padding: .5rem;
-            border:none;
+            border: none;
             background: transparent;
         }
-        a.item{
-            position:relative;
+
+        h4{
+            font-weight: bold;
+        }
+        a.item {
+            position: relative;
             display: block;
             /*margin: .5rem;*/
             background: #1e1e1e;
             border-radius: .5rem;
             overflow: hidden;
             box-shadow: 0.125rem 0.125rem 0.25rem 0.125rem #d18761;
-            transition:  .33s ;
+            transition: .33s;
 
         }
-        @keyframes shadows{
-            13%{
+
+        @keyframes shadows {
+            13% {
                 box-shadow: 0 0 0.25rem #d18761;
             }
-            63%{
+            63% {
                 box-shadow: 0 0 .5rem .25rem #ffa870;
             }
-            to{
+            to {
                 box-shadow: 0 0 0.25rem #d18761;
             }
         }
-        a.item:hover{
+
+        a.item:hover {
             left: 0.125rem;
             top: 0.125rem;
-            box-shadow: 0 0 0.25rem  #d18761;
+            box-shadow: 0 0 0.25rem #d18761;
             animation: shadows 2s infinite;
         }
-        .item img{
+
+        .item img {
             width: 100%;
             transition: 5s linear;
         }
-        a.item:hover img{
+
+        a.item:hover img {
             transform: scale(1.13);
         }
-        .item h4{
-            margin:.5rem;
+
+        .item h4 {
+            margin: .5rem;
             font-size: 1.25rem;
             text-align: center;
         }
-        .item p{
+
+        .item p {
             padding: 0 1rem;
             /*height: 4rem;*/
             font-size: .875rem;
@@ -76,122 +87,42 @@
 
     <div class="row">
         <h2 class="col-12 text-center">小伙伴们</h2>
-        <div class="card-columns">
-<!--            <div class="column">-->
-                <div class="card">
-                    <a href="https://me.csdn.net/fuhtead" target="_blank" class="item">
-                        <img src="https://avatar.csdn.net/2/C/8/3_fuhtead.jpg" alt="fuhtead">
-                        <h4>fuhtead0</h4>
-                        <p>java，python，大数据，人工智能……</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://me.csdn.net/fuhtead" target="_blank" class="item">
-                        <img src="https://avatar.csdn.net/2/C/8/3_fuhtead.jpg" alt="fuhtead">
-                        <h4>fuhtead0</h4>
-                        <p>java，python，大数据，人工智能……</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://zhuanlan.zhihu.com/gemfield" target="_blank" class="item">
-                        <img src="https://pic3.zhimg.com/v2-30f7ae523c8fb122f879b59cc71f205d_250x250.jpg" alt="gemfield">
-                        <h4>gemfield0</h4>
-                        <p>Gemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet Maintainer</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://me.csdn.net/fuhtead" target="_blank" class="item">
-                        <img src="https://avatar.csdn.net/2/C/8/3_fuhtead.jpg" alt="fuhtead">
-                        <h4>fuhtead0</h4>
-                        <p>java，python，大数据，人工智能……java，python，大数据，人工智能……java，python，大数据，人工智能……java，python，大数据，人工智能……</p>
-                    </a>
-                </div>
-<!--            </div>-->
-<!--            <div class="column">-->
-                <div class="card">
-                    <a href="https://zhuanlan.zhihu.com/gemfield" target="_blank" class="item">
-                        <img src="https://pic3.zhimg.com/v2-30f7ae523c8fb122f879b59cc71f205d_250x250.jpg" alt="gemfield">
-                        <h4>gemfield1</h4>
-                        <p>Gemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet Maintainer</p>
-                    </a>
-                </div>
-            <br>
-            <hr>
-                <div class="card">
-                    <a href="https://zhuanlan.zhihu.com/gemfield" target="_blank" class="item">
-                        <img src="https://pic3.zhimg.com/v2-30f7ae523c8fb122f879b59cc71f205d_250x250.jpg" alt="gemfield">
-                        <h4>gemfield1</h4>
-                        <p>Gemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet Maintainer</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://me.csdn.net/fuhtead" target="_blank" class="item">
-                        <img src="https://avatar.csdn.net/2/C/8/3_fuhtead.jpg" alt="fuhtead">
-                        <h4>fuhtead1</h4>
-                        <p>java，python，大数据，人工智能……java，python，大数据，人工智能……java，python，大数据，人工智能……java，python，大数据，人工智能……</p>
-                    </a>
-                </div>
-<!--            </div>-->
-<!--            <div class="column">-->
-                <div class="card">
-                    <a href="https://me.csdn.net/fuhtead" target="_blank" class="item">
-                        <img src="https://avatar.csdn.net/2/C/8/3_fuhtead.jpg" alt="fuhtead">
-                        <h4>fuhtead2</h4>
-                        <p>java，python，大数据，人工智能……</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://zhuanlan.zhihu.com/gemfield" target="_blank" class="item">
-                        <img src="https://pic3.zhimg.com/v2-30f7ae523c8fb122f879b59cc71f205d_250x250.jpg" alt="gemfield">
-                        <h4>gemfield2</h4>
-                        <p>Gemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet Maintainer</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://me.csdn.net/fuhtead" target="_blank" class="item">
-                        <img src="https://avatar.csdn.net/2/C/8/3_fuhtead.jpg" alt="fuhtead">
-                        <h4>fuhtead2</h4>
-                        <p>java，python，大数据，人工智能……java，python，大数据，人工智能……java，python，大数据，人工智能……java，python，大数据，人工智能……</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://me.csdn.net/fuhtead" target="_blank" class="item">
-                        <img src="https://avatar.csdn.net/2/C/8/3_fuhtead.jpg" alt="fuhtead">
-                        <h4>fuhtead2</h4>
-                        <p>java，python，大数据，人工智能……</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://zhuanlan.zhihu.com/gemfield" target="_blank" class="item">
-                        <img src="https://pic3.zhimg.com/v2-30f7ae523c8fb122f879b59cc71f205d_250x250.jpg" alt="gemfield">
-                        <h4>gemfield2</h4>
-                        <p>Gemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet MaintainerGemfield， A CivilNet Maintainer</p>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="https://me.csdn.net/fuhtead" target="_blank" class="item">
-                        <img src="https://avatar.csdn.net/2/C/8/3_fuhtead.jpg" alt="fuhtead">
-                        <h4>fuhtead2</h4>
-                        <p>java，python，大数据，人工智能……java，python，大数据，人工智能……java，python，大数据，人工智能……java，python，大数据，人工智能……</p>
-                    </a>
-                </div>
+        <div id="friendlyList" class="card-columns">
+
+            <div v-for="(item,index) in dataList" class="card">
+                <a :href="item.url" target="_blank" class="item">
+                    <img :src="item.imgSrc" alt="item.name">
+                    <h4>{{item.name}}</h4>
+                    <p>{{item.disc}}</p>
+                </a>
             </div>
 
         </div>
 
-
-<!--    </div>-->
+    </div>
 </main>
 <footer></footer>
 
 <script src="../assets/js/jquery-2.2.4.min.js"></script>
-<script src="../js/common.js"></script>
 <script src="../assets/js/bootstrap-4.3.1.min.js"></script>
+<script src="../assets/js/vue-2.6.10.min.js"></script>
+<script src="../js/common.js"></script>
 <script>
     $(function () {
 
     })
 
+    let friendlyLink = new Vue({
+        el: '#friendlyList',
+        data: {
+            dataList:[]
+        },
+        beforeMount(){
+            $.get('../data/friendlyLink.json',data=>{
+                this.dataList = data.friends.concat(data.publicFigure)
+            })
+        }
+    })
 </script>
 </body>
 </html>
