@@ -118,6 +118,7 @@ section.item > a {
 section.item h2 {
     position: relative;
     font-size: 1.5rem;
+    border-bottom: none;
     color: rgba(255, 255, 255, 1);
     text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .6);
     animation: h2Animation 3s infinite;
