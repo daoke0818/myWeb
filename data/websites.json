@@ -1,0 +1,47 @@
+{
+  "live": [
+    {
+      "name": "知乎",
+      "disc": "有问题，上知乎。知乎，可信赖的问答社区，以让每个人高效获得可信赖的解答为使命。知乎凭借认真、专业和友善的社区氛围，结构化、易获得的优质内容，基于问答的内容生产方式和独特的社区机制，吸引、聚集了各行各业中大量的亲历者、内行人、领域专家、领域爱好者，将高质量的内容透过人的节点来成规模地生产和分享。用户通过问答等交流方式建立信任和连接，打造和提升个人影响力，并发现、获得新机会。",
+      "imgSrc": "https://static.zhihu.com/static/favicon.ico",
+      "url": "https://www.zhihu.com/"
+    }, {
+      "name": "微博",
+      "disc": "随时随地发现新鲜事！微博带你欣赏世界上每一个精彩瞬间，了解每一个幕后故事。分享你想表达的，让全世界都能听到你的心声！",
+      "imgSrc": "https://weibo.com/favicon.ico",
+      "url": "https://weibo.com"
+    }, {
+      "name": "W3C中国",
+      "disc": "万维网联盟（World Wide Web Consortium，简称W3C）创建于1994年，是Web技术领域最具权威和影响力的国际中立性技术标准机构（W3C视频）。到目前为止，W3C已发布了200多项影响深远的Web技术标准及实施指南，如广为业界采用的超文本标记语言（HTML）、可扩展标记语言（XML）以及帮助残障人士有效获得Web内容的信息无障碍指南（WCAG）等，有效促进了Web技术的互相兼容，对互联网技术的发展和应用起到了基础性和根本性的支撑作用。",
+      "imgSrc": "http://www.chinaw3c.org/usr/themes/w3c/images/logo.png",
+      "url": "http://www.chinaw3c.org/"
+    }, {
+      "name": "Bootstrap4中文文档",
+      "disc": "Bootstrap是当前世界最受欢迎的响应式、移动设备优先的门户和应用前端框架。在其中，你将发现高质量的HTML、CSS以及JavaScript，使您的WEB工程项目变得无比简单，包括官方的CDN和启动器服务。",
+      "imgSrc": "http://code.z01.com/v4/assets/img/favicons/apple-touch-icon.png",
+      "url": "http://code.z01.com/v4/docs/index.html"
+    }, {
+      "name": "ECharts",
+      "disc": "ECharts，一个使用 JavaScript 实现的开源可视化库，可以流畅的运行在 PC 和移动设备上，兼容当前绝大部分浏览器（IE8/9/10/11，Chrome，Firefox，Safari等），底层依赖轻量级的矢量图形库 ZRender，提供直观，交互丰富，可高度个性化定制的数据可视化图表。",
+      "imgSrc": "https://echarts.baidu.com/images/favicon.png",
+      "url": "https://echarts.baidu.com/"
+    }, {
+      "name": "jQuery",
+      "disc": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.",
+      "imgSrc": "https://jquery.com/jquery-wp-content/themes/jquery.com/i/favicon.ico",
+      "url": "https://jquery.com/"
+    }, {
+      "name": "Iconfont",
+      "disc": "阿里妈妈MUX倾力打造的矢量图标管理、交流平台。\n设计师将图标上传到Iconfont平台，用户可以自定义下载多种格式的icon，平台也可将图标转换为字体，便于前端工程师自由调整与调用。",
+      "imgSrc": "https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico",
+      "url": "https://www.iconfont.cn"
+    }, {
+      "name": "VUE",
+      "disc": "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。",
+      "imgSrc": "https://cn.vuejs.org/images/logo.png",
+      "url": "https://cn.vuejs.org"
+    }
+  ],
+  "dead": []
+
+}

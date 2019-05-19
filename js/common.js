@@ -1,6 +1,11 @@
 $(function () {
     // 加载主导航
-    $('body>#mainNav').load('../page/topNav.html #mainNav>*');
+    $('body>#mainNav').load('../page/topNav.html #mainNav>*',function () {
+        /*$('.nav-item.dropdown').hover(function () {
+            $(this).children('a').click()
+        });*/
+    });
+
     // 加载footer
     $('body>footer').addClass('text-center mainFooter').html(`
         <span hidden class="d-md-inline">网站访问次数：<img style="position: relative;top:-.125rem" src="http://www.cutercounter.com/hits.php?id=geepfcxo&nd=6&style=4" alt="免费计数器"></span>
