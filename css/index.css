@@ -203,7 +203,15 @@ section.item ul > li > a {
     text-align: left;
     padding: 0.75rem 1.25rem;
 }
-
+section.item ul > li > a .iconfont {
+    margin-left: .5rem;
+    color: lightskyblue;
+}
+@media screen and (max-width: 767px) {
+    section.item ul > li > a .iconfont {
+        margin-left: .25rem;
+    }
+}
 @media screen and (max-width: 767px) {
     .mainFooter {
         position: fixed;
