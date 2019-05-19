@@ -5,50 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=”renderer” content=”webkit”>
     <title>关中刀客在青岛</title>
-    <link rel="stylesheet" href="../asserts/css/bootstrap-4.0.0-a6.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_880295_rjcffpyn54o.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-4.3.1.min.css">
     <link rel="stylesheet" href="../css/common.css">
     <style>
-        .container {
-            margin-bottom: 6rem;
-            padding: 2rem;
-            height: auto;
-            background: rgba(0, 0, 0, .5);
-
-        }
-        @media screen and (max-width: 767px) {
-            .container {
-                margin-bottom: 0;
-            }
-        }
-        .container .row{
-            height: auto;
-        }
-        h2{
-            margin-top: .5rem;
-            margin-bottom: 2rem;
-        }
-        h4{
-            margin: 1rem 0 2rem;
-        }
-        p, li {
+        p {
             font-size: 16px;
         }
-        .col-md-6{
-            padding: 0 2rem;
-        }
-        @media screen and (max-width: 767px) {
-            .col-md-6{
-                padding: 0 .5rem;
-            }
-        }
         ol{
-            padding:1rem
-        }
-        ol,ol ol{
-            margin-bottom: 1rem;
+            padding-left:1rem
         }
         ol ol{
-            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .contact-item{
+            text-align: center;
+            color: lightskyblue;
+            display: block;
+            padding-bottom: .25rem;
+            border-radius: 1rem;
+            transition: all .33s;
+        }
+       .contact-item i{
+            font-size: 4rem;
+        }
+        .contact-item:hover{
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.93);
+        }
+       .contact-item:hover i.i-sina{
+           color: #e6162d;
+        }
+       .contact-item:hover i.i-gitee{
+           color: #c71d23;
+        }
+       .contact-item:hover i.i-github{
+           color: #24292e;
+        }
+        .contact-item:hover i.i-zhihu{
+           color: #0084ff;
+        }
+        .contact-item:hover i.i-wangyiyunyinyue{
+           color: #e60026;
         }
     </style>
 </head>
@@ -56,45 +54,11 @@
 <div class="bgVideo">
     <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛的博客首页</h1>
 </div>
-<header class="hidden-sm-down">
-    <h1 class="text-center">夕阳无限好，<br class=" d-md-none">黄昏又如何？</h1>
-    <a href="http://e-art.top" class="logo" title="关中刀客在青岛">
-        <img src="../img/logo_v0.1_w.png" alt="logo">
-    </a>
-</header>
-<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>-->
-<main class="container m-md-3">
+<nav id="mainNav" class="navbar navbar-expand-md navbar-dark mb-md-5"></nav>
+<main class="container">
     <div class="row">
-        <div class="col-md-6">
-            <h2>关于作者</h2>
+        <div class="col-md-6 px-2 px-md-4">
+            <h2 class="mt-5 mt-md-2">关于作者</h2>
             <p></p>
             <p>关中刀客在青岛，男，汉族。
             <p>2008年毕业于青岛某不知名大学，随后从事过硬件电路、系统仪器、视频后期、淘宝多媒体服务、开花店、视频配乐等工作。
@@ -104,9 +68,29 @@
             <p>不抽烟，很少喝酒而且反感劝酒恶习，素食主义，不喜欢油多的食物，也不喜欢浪费食物，不喜欢和有心机的人打交道，不喜欢重复无创新的劳动，不喜欢浪费时间，从来没有觉得无聊过。
             <p>业余时间喜欢点音乐、户外运动、去图书馆，但现在很少有业余时间。
             <p>我是个80后，但有同事说我是90后外表70后的思想。
-            <p>
+            <br>
+            <br>
+            <h2>联系方式</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a class="contact-item" target="_blank" href="https://github.com/daoke0818"><i class="iconfont i-github"><p>Github</p></i></a>
+                </div>
+                <div class="col-4">
+                    <a class="contact-item" target="_blank" href="https://gitee.com/daoke0818"><i class="iconfont i-gitee"><p>码云</p></i></a>
+                </div>
+                <div class="col-4">
+                    <a class="contact-item" target="_blank" href="https://weibo.com/daoke0818"><i class="iconfont i-sina"><p>新浪微博</p></i></a>
+                </div>
+               <div class="col-4">
+                    <a class="contact-item" target="_blank" href="https://www.zhihu.com/people/daoke0818"><i class="iconfont i-zhihu"><p>知乎</p></i></a>
+                </div>
+                <div class="col-4">
+                    <a class="contact-item" target="_blank" href="https://music.163.com/#/user/home?id=403753454"><i class="iconfont i-wangyiyunyinyue"><p>网易云音乐</p></i></a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 px-2 px-md-4">
+            <br class="d-sm-none">
             <h2>未来100年计划：</h2>
             <ol class="px-sm-2 px-md-3">
                 <li>还能敲动代码的时候，如果没有意外，除了带孩子长大，还想：
@@ -117,49 +101,36 @@
                         <li>在人工智能和影视后期结合的地方搞点事情
                         <li>如果有机会，搞个菜夹馍品牌，可量身为程序猿打造，通过包装袋上的二维码可参加各种代码活动，顺便传播点正能量。
                     </ol>
-
                 <li>如果退休，可能：
                     <ol>
                         <li>接着搞菜夹馍
-                        <li>研究菜谱素食，发扬家乡美食
-                        <li>学习书法，写生，素描，国画等艺术
+                        <li>研究素食菜系，发扬家乡美食
+                        <li>学习素描。曾因脸盲导致的误会和丢人事件不少，又听徐立忠大师说他当年为了短时间内记住一个人的面相特征，坐在电视机前用素描的方法来画(那时候电视没有快退暂停，也没有手机来拍照)，所以打算借鉴这个方法来弥补一下。
+                        <li>去老年大学报班学几样乐器，起码自娱自乐，若有可能，则进入下一条
+                        <li>街头卖艺，弹吉他，拉二胡，吹笛子、口琴、埙、萧等等乐器，若有同行则可组建乐队，比如：<a target="_blank" href="http://music.163.com/video/6E2C606CDD65E1DC36E02E0A1FD2CAB0/?userid=403753454">一伙老头的天籁之音</a>
+                        <li>学习书法，写生，国画等艺术
                         <li>学习中医，养生
                         <li>经常回老家，陪父母种菜
                         <li>非景点旅行，如野外，爬山，欣赏不同地域风光，聆听民俗音乐小调
                         <li>去久仰的江南水乡，躺在船上听夜半钟声看巴金繁星
                         <li>摆地摊卖书，不过随着电子书发展，这个可能性在减小
                         <li>捡破烂并从中制造出有用或好玩的东西或乐器，像这种：<a target="_blank" href="http://music.163.com/video/1255F827E19C35D6E31041EC33F4A81A/?userid=403753454">街头艺人用塑料管演奏音乐</a>
-                        <li>街头卖艺，弹吉他，拉二胡，吹笛子、口琴、埙、萧等等乐器，若有同行则可组建乐队，比如<a target="_blank" href="http://music.163.com/video/6E2C606CDD65E1DC36E02E0A1FD2CAB0/?userid=403753454">点击这里观看</a>
-
                     </ol>
                 <li>如果还健在，也就是不只活着还要能自如活动：
                     <ol>
-                        <li>打造一个属于自己的空间——租个稍大点的房子，除了能放下一些乐器(包括自制的)和电脑，还能放个睡觉的床。闲余之时可以泡个茶，听个古典音乐，弹个古筝，品味一下佛家哲学，打个坐。
+                        <li>打造一个属于自己的空间——租个稍大点的房子，除了能放下一些乐器(包括自制的)和电脑，还能放个睡觉的床。闲余之时可以泡个茶，听个古典音乐，弹个古筝，品味一下佛家哲学，打个坐修个身。
                         <li>如果到时候租不起房子，也可去终南山或崂山“独坐幽篁里，弹琴复长啸；深林人不知，明月来相照”
                         <li>如果深山有去不成的原因，就去找个师傅指点一下做个云游客，体验“口中食得清和味，身上常披百衲衣；五湖四海为上客，逍遥殿前任君嘻”
                     </ol>
             </ol>
         </div>
     </div>
-
-
 </main>
-<footer class="text-center py-3 mainFooter">
-    © 2019 关中刀客在青岛 <a href="http://www.beian.miit.gov.cn" target="_blank"> 鲁ICP备19013610号 </a>
-</footer>
-
-<script src="../asserts/js/jquery-2.2.4.min.js"></script>
-<script src="../asserts/js/bootstrap.js"></script>
+<footer></footer>
+<script src="../assets/js/jquery-2.2.4.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../assets/js/bootstrap-4.3.1.min.js"></script>
 <script>
-    $(function () {
-        
-        // $(".project a:gt(3)").click(function () {
-        //     return false;
-        // }).css("cursor","not-allowed");
-        $("section.item>a").click(function () {
-            return false;
-        })
-    })
 
 </script>
 </body>

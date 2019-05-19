@@ -1,31 +1,44 @@
 @charset "utf-8";
-
+.iconfont.i-gitee_bg:hover,
+.iconfont.i-github_bg:hover{
+    position: relative;
+    top: -.25rem;
+}
 body:not(#index) .bgVideo {
     filter: blur(.25rem);
-    /*background: url(../img/bg_body.jpg) no-repeat;*/
-    /*background-size: cover;*/
 }
 html {
     font-size: 14px;
-}
-
-@media screen and (min-width: 1440px) {
-    html {
-        font-size: 18px;
-    }
 }
 @media screen and (max-width: 321px) {
     html {
         font-size: 12px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 16px;
+    }
+}
 ol{
     padding: 0;
 }
+@keyframes bodyEase{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+  }
 body {
     color: #fff;
+    background-color: #000;
 }
-
+html, body {
+    height: 100%;
+}
 header {
     height: 8rem;
 }
@@ -37,29 +50,62 @@ body:not(#index) a {
 body:not(#index) a:hover {
     color: deepskyblue;
 }
-
-header a.logo {
-    display: block;
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    width: 6rem;
-    /* filter: brightness(1.1); */
+body>.navbar{
+    z-index: 10;
+    height: 4rem;
+    color: rgba(255, 255, 255, .72);
+    background: linear-gradient(to top, rgba(0, 0, 0, .1), rgba(0, 0, 0, .63));
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, .33);
 }
-
-header .logo img {
+@media screen and (max-width: 767px) {
+    body>.navbar {
+        height: auto;
+    }
+}
+.navbar .dropdown-menu{
+    background: rgba(0,0,0,.63);
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.33);
+}
+/*默认hover打开下拉菜单*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    padding-top: .625rem;
+}
+/*风筝动画*/
+@keyframes logoAnimation {
+    from{
+        transform:skew(0) scale(1);
+    }
+    25%{
+        transform:skewX(1deg) rotateX(30deg) scale(.9) translate(-.125rem,-.25rem);
+    }
+    40%{
+        transform:scale(.85);
+        opacity:.7
+    }
+    60%{
+        transform:skewX(-15deg) skewY(-10deg);
+    }
+    70%{
+        transform:skewX(-15deg) skewY(-10deg) rotateZ(10deg);
+    }
+    90%{
+        transform:skewY(5deg);
+    }
+    to{
+        transform: skew(0) scale(1);
+    }
+}
+.navbar .navbar-brand{
+    width: 4rem;
+}
+.navbar .navbar-brand img{
     display: block;
     width: 100%;
-}
-
-header h1 {
-    margin-top: 0;
-    padding: 2.5rem;
-    font-weight: bolder;
-    color: #ffd353d1;;
-    letter-spacing: .25rem;
-    font-family: "行楷", "楷体", serif;
-    text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .6);
+    animation: 20s logoAnimation infinite ease;
 }
 
 
@@ -70,7 +116,7 @@ header h1 {
     z-index: -1;
     background: url("../img/bg_body.jpg") no-repeat;
     background-size: cover;
-    /*object-fit: fill;*/
+    transform: scale(1.01);/*修复模糊造成的白边*/
 }
 
 .bgVideo video {
@@ -89,32 +135,47 @@ header h1 {
         display: none;
     }
 }
-
-.container {
-    padding-top: 4rem;
-    border-radius: 1rem;
+.container,#mainNav{
+    animation: .63s bodyEase ease;
 }
 
-@media screen and (max-width: 1439px) {
+.container {
+    margin-bottom: 6rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: calc(100% - 16rem);
+    background: rgba(0, 0, 0, .5);
+}
+
+
+@media screen and (max-width: 767px) {
     .container {
+        margin-bottom: 0;
         padding-top: 0;
         border-radius: 0;
+        max-width: initial;
     }
+}
+
+h2{
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: .0625rem solid rgba(255,255,255,.13);
 }
 
 
 .mainFooter {
-    width: 100%;
-    height: 4rem;
-    line-height: 2rem;
+    z-index: 10;
+    height: 3rem;
+    line-height: 2.75rem;
     color: rgba(255, 255, 255, .72);
     background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .63));
     box-shadow: 0 -0.25rem 0.5rem rgba(0, 0, 0, .63);
 }
 @media screen and (max-width: 767px) {
     .mainFooter {
-        height: 3.5rem;
-        line-height: 1.25rem;
+        width: 100%;
         background: linear-gradient(to bottom, rgba(0, 0, 0, .36), rgba(0, 0, 0, 1) 90%);
         box-shadow: 0 -0.25rem 0.5rem rgba(0, 0, 0, .9);
     }

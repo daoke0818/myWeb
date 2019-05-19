@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name=”renderer” content=”webkit”>
+	<meta name="referrer" content="never">
+	<title>关中刀客在青岛</title>
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_880295_rjcffpyn54o.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap-4.3.1.min.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<style>
+		.card-columns {
+			columns: 10rem 6;
+			column-gap: .75rem;
+		}
+		
+		.card {
+			display: inline-block;
+			padding: .5rem;
+			border: none;
+			background: transparent;
+		}
+		
+		.card a.item {
+			position: relative;
+			display: block;
+			background: #1e1e1e;
+			border-radius: .5rem;
+			overflow: hidden;
+			box-shadow: 0.125rem 0.125rem 0.25rem 0.125rem #d18761;
+			transition: .33s;
+			
+		}
+		
+		@keyframes shadows {
+			13% {
+				box-shadow: 0 0 0.25rem #d18761;
+			}
+			63% {
+				box-shadow: 0 0 .5rem .25rem #ffa870;
+			}
+			to {
+				box-shadow: 0 0 0.25rem #d18761;
+			}
+		}
+		
+		a.item:hover {
+			left: 0.125rem;
+			top: 0.125rem;
+			box-shadow: 0 0 0.25rem #d18761;
+			animation: shadows 2s infinite;
+		}
+		
+		a.item img {
+			width: 100%;
+			transition: 5s linear;
+		}
+		
+		a.item:hover img {
+			transform: scale(1.13);
+		}
+		
+		a.item h4 {
+			font-weight: bold;
+			margin: .5rem;
+			font-size: 1.25rem;
+			text-align: center;
+			
+		}
+		
+		a.item p {
+			padding: 0 1rem;
+			/*height: 4rem;*/
+			font-size: .875rem;
+		}
+	
+	
+	</style>
+</head>
+<body id="friendlyLink">
+<div class="bgVideo">
+	<h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛的博客</h1>
+</div>
+<nav id="mainNav" class="navbar navbar-expand-md navbar-dark mb-md-5"></nav>
+<main class="container">
+	
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="mt-5 mt-md-2 text-md-center">小伙伴们</h2>
+		</div>
+		<div id="friendlyList" class="card-columns">
+			<div v-for="(item,index) in dataList" class="card">
+				<a :href="item.url" target="_blank" class="item">
+					<img :src="item.imgSrc" alt="item.name">
+					<h4>{{item.name}}</h4>
+					<p>{{item.disc}}</p>
+				</a>
+			</div>
+		
+		</div>
+	
+	</div>
+</main>
+<footer></footer>
+
+<script src="../assets/js/jquery-2.2.4.min.js"></script>
+<script src="../assets/js/bootstrap-4.3.1.min.js"></script>
+<script src="../assets/js/vue-2.6.10.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    $(function () {
+
+    })
+
+    let friendlyLink = new Vue({
+        el: '#friendlyList',
+        data: {
+            dataList: []
+        },
+        beforeMount() {
+            $.get('../data/friendlyLink.json', data => {
+                this.dataList = data.friends.concat(data.publicFigure)
+            })
+        }
+    })
+</script>
+</body>
+</html>
