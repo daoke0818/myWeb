@@ -107,7 +107,9 @@ body>.navbar{
     width: 100%;
     animation: 20s logoAnimation infinite ease;
 }
-
+.navbar a:hover{
+    text-decoration: none;
+}
 
 .bgVideo {
     position: fixed;

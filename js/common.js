@@ -1,10 +1,24 @@
 $(function () {
     // 加载主导航
     $('body>#mainNav').load('../page/topNav.html #mainNav>*',function () {
-        /*$('.nav-item.dropdown').hover(function () {
-            $(this).children('a').click()
-        });*/
+
     });
+
+    // video标签写上autoplay属性会导致即使隐藏了整个标签，仍然会在手机QQ浏览器中自动播放出来，所以只能采取如下办法来处理
+    if($(window).width()<576){
+        $('body').prepend(`
+        <div class="bgVideo">
+            <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛的博客首页</h1>
+        </div>
+    `);
+    }else{
+        $('body').prepend(`
+        <div class="bgVideo">
+            <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛的博客首页</h1>
+            <video autoplay class="d-md-block" loop src="video/SF_SutroBaths-4K_nimia_573584_768_ZH-CN.mp4"></video>
+        </div>
+    `);
+    }
 
     // 加载footer
     $('body>footer').addClass('text-center mainFooter').html(`
