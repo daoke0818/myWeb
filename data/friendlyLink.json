@@ -1,0 +1,48 @@
+{
+  "friends": [
+    {
+      "name": "fuhtead",
+      "disc": "java，python，大数据，人工智能……",
+      "imgSrc": "https://avatar.csdn.net/2/C/8/3_fuhtead.jpg",
+      "url": "https://me.csdn.net/fuhtead"
+    }, {
+      "name": "gemfield",
+      "disc": "Gemfield， A CivilNet Maintainer",
+      "imgSrc": "https://pic3.zhimg.com/v2-30f7ae523c8fb122f879b59cc71f205d_250x250.jpg",
+      "url": "https://zhuanlan.zhihu.com/gemfield"
+    }, {
+      "name": "青格勒",
+      "disc": "前端技术 | 分享让你更聪明",
+      "imgSrc": "http://2.gravatar.com/avatar/e164fdafecc109e54ac4cb7f57c92c11?s=32&d=retro&r=g",
+      "url": "http://cenggel.com/"
+    }, {
+      "name": "蝶慕清幽",
+      "disc": "大概是个程序猿吧",
+      "imgSrc": "https://qybolg.cc/content/templates/FLY/img/logo.png",
+      "url": "https://www.qybolg.cc/"
+    }, {
+      "name": "彳余小站",
+      "disc": "大概是个程序猿吧",
+      "imgSrc": "https://avatar.gitee.com/uploads/50/1856350_xuguorui.png!avatar100?1522758138",
+      "url": "https://imxgr.com"
+    }
+  ],
+  "publicFigure": [
+    {
+      "name": "阮一峰",
+      "disc": "在上海金融学院、国际经贸学院任教，也是一名IT大牛，主要关注web技术，并且对自由软件有着坚定不移的信念。",
+      "imgSrc": "http://www.ruanyifeng.com/blog/images/person2_s.jpg",
+      "url": "http://www.ruanyifeng.com"
+    }, {
+      "name": "廖雪峰",
+      "disc": "技术作家，著有《Spring 2.0核心技术与最佳实践》 头条文章作者",
+      "imgSrc": "https://tva2.sinaimg.cn/crop.0.1.635.635.180/62d8efadgw1ej30downrsj20hs0hq0ws.jpg",
+      "url": "https://www.liaoxuefeng.com/"
+    }, {
+      "name": "张鑫旭",
+      "disc": "上海阅文信息技术有限公司用户体验设计师，其实本想做个生物学者的前端大牛",
+      "imgSrc": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/4b4d632fjw1e8qgp5bmzyj2050050aa8.jpg",
+      "url": "https://www.zhangxinxu.com/"
+    }
+  ]
+}

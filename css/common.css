@@ -68,6 +68,12 @@ body>.navbar{
 .dropdown-item:focus, .dropdown-item:hover {
     background-color: rgba(255, 255, 255, 0.33);
 }
+/*默认hover打开下拉菜单*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    padding-top: .625rem;
+}
 /*风筝动画*/
 @keyframes logoAnimation {
     from{
@@ -101,7 +107,9 @@ body>.navbar{
     width: 100%;
     animation: 20s logoAnimation infinite ease;
 }
-
+.navbar a:hover{
+    text-decoration: none;
+}
 
 .bgVideo {
     position: fixed;
@@ -151,12 +159,11 @@ body>.navbar{
     }
 }
 
-.container .row{
-    height: auto;
-}
 h2{
     margin-top: .5rem;
     margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: .0625rem solid rgba(255,255,255,.13);
 }
 
 

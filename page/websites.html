@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="referrer" content="never">
+    <title>关中刀客在青岛</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_880295_rjcffpyn54o.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-4.3.1.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <style>
+
+        a.item {
+            position: relative;
+            display: block;
+            margin-bottom: 1.5rem;
+            height: 6.5rem;
+            background: #1e1e1e;
+            border-radius: .5rem;
+            overflow: hidden;
+            transition: .13s;
+            outline-offset: .5rem;
+        }
+        @keyframes outline{
+            from{
+                outline: .125rem dashed;
+            }
+            50%{
+                outline: .125rem dotted;
+            }
+            to{
+                outline: .125rem dashed;
+            }
+        }
+        a.item:hover {
+            top: -0.125rem;
+            animation: outline 1s infinite;
+            text-decoration: none;
+        }
+        a.item>.row{
+            padding: .5rem;
+        }
+        a.item .img-box{
+            padding: 0 .125rem;
+            background: 0 center no-repeat;
+            background-size: contain;
+        }
+
+        a.item h4 {
+            margin: .5rem;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+
+        a.item p {
+            padding-left: .5rem;
+            margin-bottom: 0;
+            margin-top: .25rem;
+            font-size: .875rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
+    </style>
+</head>
+<body id="friendlyLink">
+<nav id="mainNav" class="navbar navbar-expand-md navbar-dark mb-md-5"></nav>
+<main class="container" id="websites">
+
+    <div class="row">
+        <h2 class="col-12 text-center">常去网站</h2>
+
+        <div class="col-sm-6 col-md-4 col-lg-3" v-for="(item,index) in dataList">
+            <a :href="item.url" target="_blank" class=" card item" :title="item.disc">
+                <div class="row no-gutters" style="height: 100%;">
+                    <div class="col-3 col-md-4 img-box" :style="{backgroundImage: 'url('+item.imgSrc+')'}"></div>
+                    <div class="col-9 col-md-8">
+                        <p><strong>《{{item.name}}》</strong>——{{item.disc}}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+    </div>
+</main>
+<footer></footer>
+
+<script src="../assets/js/jquery-2.2.4.min.js"></script>
+<script src="../assets/js/bootstrap-4.3.1.min.js"></script>
+<script src="../assets/js/vue-2.6.10.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    let websites = new Vue({
+        el: '#websites',
+        data: {
+            dataList: []
+        },
+        beforeMount() {
+            $.get('../data/websites.json', data => {
+                this.dataList = data.live
+            })
+        }
+    });
+
+</script>
+</body>
+</html>

@@ -35,13 +35,15 @@ html, body {
     padding-top: 4rem;
     background: transparent;
 }
+
 @media screen and (max-width: 767px) {
-    .container {/*首页没有导航*/
+    .container { /*首页没有导航*/
         height: auto;
         padding-bottom: 4rem;
     }
 
 }
+
 header a.logo {
     display: block;
     position: absolute;
@@ -56,6 +58,7 @@ header .logo img {
     width: 100%;
     animation: 18s logoAnimation infinite ease;
 }
+
 header h1 {
     margin-top: 0;
     padding: 2.5rem;
@@ -67,29 +70,31 @@ header h1 {
 }
 
 
-
+/*媒体查询是大屏优先，和bootstrap的移动端优先相反*/
 .container > .row:first-child {
     padding-top: 4rem;
-
 }
 
 .container > .row {
     height: 20rem;
 }
-@media screen and (max-width: 1439px){
-    .container > .row {
-        height: 18rem;
-    }
 
-}
-.container > .row.bottom {
-    height: 10rem;
-}
 .top:hover {
     height: 24rem;
 }
-.top:hover ~ .bottom{
-    height: 6rem;
+
+@media screen and (max-width: 1439px) {
+    .container > .row {
+        height: 13rem;
+    }
+
+    .container > .row:first-child {
+        padding-top: 0;
+    }
+    .top:hover {
+        height: 20rem;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -97,14 +102,14 @@ header h1 {
         height: auto;
     }
 
-    .container > .row:first-child {
-        padding-top: 7rem;
+    .container > .row.top {
+        padding-top: 4rem;
         padding-left: 40%;
     }
 
-    .container > .row:last-child {
+    .container > .row.bottom {
+        padding-top: 4rem;
         padding-right: 40%;
-        padding-top: 10%;
     }
 }
 
@@ -112,12 +117,12 @@ section.item {
     position: relative;
 }
 
-section.item > a {
-}
-
 section.item h2 {
     position: relative;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
     font-size: 1.5rem;
+    border-bottom: none;
     color: rgba(255, 255, 255, 1);
     text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, .6);
     animation: h2Animation 3s infinite;
@@ -183,10 +188,12 @@ section.item:hover > ul {
 section.item:hover h2 {
     animation: none;
 }
-.list-group-item.disabled{
+
+.list-group-item.disabled {
     background: transparent;
 }
-section.item ul > li{
+
+section.item ul > li {
     padding: 0;
 }
 
@@ -196,19 +203,18 @@ section.item ul > li > a {
     text-align: left;
     padding: 0.75rem 1.25rem;
 }
+section.item ul > li > a .iconfont {
+    margin-left: .5rem;
+    color: lightskyblue;
+}
 @media screen and (max-width: 767px) {
-    .mainFooter{
+    section.item ul > li > a .iconfont {
+        margin-left: .25rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mainFooter {
         position: fixed;
         bottom: 0;
     }
 }
-
-/*
-ul > li {
-    counter-increment: mycounter;
-}
-
-ul > li:before {
-    content: counter(mycounter) ". ";
-}
-*/
