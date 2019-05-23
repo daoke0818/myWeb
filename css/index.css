@@ -212,6 +212,33 @@ section.item ul > li > a .iconfont {
         margin-left: .25rem;
     }
 }
+.item.friends ul{
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: .25rem;
+    background-color: rgba(0, 0, 0, .15);
+}
+.item.friends ul>li{
+    border-left: none ;
+    border-right: none ;
+    background-color:transparent;
+}
+.item.friends ul>li:hover a{
+    color: rgba(255, 255, 255, .75);
+}
+.item.friends ul>li>a{
+    display: inline-block;
+    width: auto;
+}
+.item.friends ul>li>a:hover{
+    color: #fff;
+    background-color: rgba(0, 0, 0, .4);
+}
+@media screen and (max-width: 767px) {
+    .item.friends ul>li{
+        border: none;
+    }
+}
 @media screen and (max-width: 767px) {
     .mainFooter {
         position: fixed;
