@@ -83,7 +83,7 @@ header h1 {
     height: 24rem;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1599px) {
     .container > .row {
         height: 13rem;
     }
