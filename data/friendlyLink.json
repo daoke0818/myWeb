@@ -31,15 +31,30 @@
       "imgSrc": "http://smwell-wordpress.stor.sinaapp.com/uploads/2018/12/logo.png",
       "url": "http://www.hehaibao.com"
     }, {
-      "name": "记磊博客",
-      "disc": "记录记磊生活中所遇到的一点一滴，一生所遇，相知不易，相识更是缘分，记磊博客是一个自媒体博客，个人博客网站，分享seo实战技术，web前端技术，编程开发的优秀个人博客网站。",
-      "imgSrc": "https://www.ly522.com/wp-content/themes/vieu/static/img/favicon.ico",
-      "url": "https://www.ly522.com"
-    }, {
       "name": "青格勒",
       "disc": "前端技术 | 分享让你更聪明",
       "imgSrc": "http://2.gravatar.com/avatar/e164fdafecc109e54ac4cb7f57c92c11?s=32&d=retro&r=g",
       "url": "http://cenggel.com/"
+    }, {
+      "name": "crazycodes",
+      "disc": "PHP/Go开发工程师，菜鸡架构师，开源爱好者",
+      "imgSrc": "https://resources.blog.fastrun.cn/wp-content/uploads/2018/10/693663433-5b99ca167eda5_huge256.jpeg",
+      "url": "https://blog.fastrun.cn"
+    }, {
+      "name": "刘鑫的小窝",
+      "disc": "欢迎访问我的博客！我是刘鑫，从事前端开发工作。我很喜欢现在的生活，规律没有什么波澜，闲暇时写写博客，偶尔加个班。话不多，待人有礼，希望能和你也能成为朋友。微信：a397359224",
+      "imgSrc": "https://www.ilxin.cn/wp-content/uploads/2019/04/tx3.jpg",
+      "url": "https://www.ilxin.cn/"
+    }, {
+      "name": "Sanshi 博客",
+      "disc": "一个java程序员的个人博客，记录博主的学习,生活中的一些有趣的事，并分享Java方面技术和源码。",
+      "imgSrc": "http://www.sanshi30.cn/static/img/logo.jpg",
+      "url": "http://www.sanshi30.cn"
+    }, {
+      "name": "记磊博客",
+      "disc": "记录记磊生活中所遇到的一点一滴，一生所遇，相知不易，相识更是缘分，记磊博客是一个自媒体博客，个人博客网站，分享seo实战技术，web前端技术，编程开发的优秀个人博客网站。",
+      "imgSrc": "https://www.ly522.com/wp-content/themes/vieu/static/img/favicon.ico",
+      "url": "https://www.ly522.com"
     }, {
       "name": "蝶慕清幽",
       "disc": "大概是个程序猿吧",
