@@ -2,7 +2,7 @@
   "friends": [
     {
       "name": "fuhtead",
-      "disc": "java，python，大数据，人工智能……",
+      "disc": "futhead，2013年6月毕业于某二流大学核化工与核燃料工程专业，后在某IDC机房做网管，期间自学编程，依次从事过Android，PHP，JavaWeb，前端，测试，运维，GIS，大数据等相关开发工作，如无意外，下份工作应该是Python全栈，侧重NLP方向。",
       "imgSrc": "https://avatar.csdn.net/2/C/8/3_fuhtead.jpg",
       "url": "https://me.csdn.net/fuhtead"
     }, {
@@ -16,19 +16,9 @@
       "imgSrc": "http://wfqqreader-1252317822.image.myqcloud.com/cover/706/25373706/t5_25373706.jpg",
       "url": "http://chuangshi.qq.com/bk/qc/25373706"
     }, {
-      "name": "菜鸟博客",
-      "disc": "这是一个交换友情链接的博客：“我们对交换链接的网站没有要求。如果您是本博客的友情链接网站，在遇到网站运行问题时，可以随时联系博主，我们将免费提供技术类支持！”",
-      "imgSrc": "https://birdteam.net/wp-content/uploads/2017/12/2017122411334155.png",
-      "url": "http://birdteam.net"
-    }, {
-      "name": "AE博客",
-      "disc": "AE博客(AEINK.COM)是一家乐享资源记忆点滴的博客,主要分享程序源码,站长工具,网络技术,免费空间,模板插件,网赚项目,各类资源,各类教程,QQ资源,手机应用,致力创造一个高质量分享平台.",
-      "imgSrc": "https://cdn-aeink-com.alikunlun.com//content/templates/emlog_dux/images/logo.png",
-      "url": "https://www.aeink.com"
-    }, {
       "name": "何海宝的博客",
       "disc": "何海宝(hehaibao)的个人技术博客, 基于wordpress开发，是一个致力于WEB前后端技术学习与分享的个人博客，内容包含web前端(javascript,html,css,jquery,vue,zepto,angular等)，web后端(php+mysql)，SEO，WordPress，服务器，主题开发相关等技术。关注用户体验，关注IT互联网。",
-      "imgSrc": "http://smwell-wordpress.stor.sinaapp.com/uploads/2018/12/logo.png",
+      "imgSrc": "../img/friendlyLink/logo_hehaibao.png",
       "url": "http://www.hehaibao.com"
     }, {
       "name": "青格勒",
@@ -56,10 +46,25 @@
       "imgSrc": "https://img.mukewang.com/570a2e460001d28e01000100-140-140.jpg",
       "url": "https://liaowei.info/"
     }, {
+      "name": "千千",
+      "disc": "容易被当成程序媛的程序猿^_^(继续踏上旅途，在没有你的春天……)",
+      "imgSrc": "https://www.dreamwings.cn/wp-content/uploads/2018/06/806e52a2e2b9ff4bd2c23140df75cc1f.jpeg",
+      "url": "https://www.dreamwings.cn"
+    }, {
       "name": "记磊博客",
       "disc": "记录记磊生活中所遇到的一点一滴，一生所遇，相知不易，相识更是缘分，记磊博客是一个自媒体博客，个人博客网站，分享seo实战技术，web前端技术，编程开发的优秀个人博客网站。",
       "imgSrc": "https://www.ly522.com/wp-content/themes/vieu/static/img/favicon.ico",
       "url": "https://www.ly522.com"
+    }, {
+      "name": "菜鸟博客",
+      "disc": "这是一个交换友情链接的博客：“我们对交换链接的网站没有要求。如果您是本博客的友情链接网站，在遇到网站运行问题时，可以随时联系博主，我们将免费提供技术类支持！”",
+      "imgSrc": "https://birdteam.net/wp-content/uploads/2017/12/2017122411334155.png",
+      "url": "http://birdteam.net"
+    }, {
+      "name": "AE博客",
+      "disc": "AE博客(AEINK.COM)是一家乐享资源记忆点滴的博客,主要分享程序源码,站长工具,网络技术,免费空间,模板插件,网赚项目,各类资源,各类教程,QQ资源,手机应用,致力创造一个高质量分享平台.",
+      "imgSrc": "https://cdn-aeink-com.alikunlun.com//content/templates/emlog_dux/images/logo.png",
+      "url": "https://www.aeink.com"
     }, {
       "name": "蝶慕清幽",
       "disc": "大概是个程序猿吧",
