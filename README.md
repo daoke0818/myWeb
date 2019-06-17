@@ -10,6 +10,6 @@ http://e-art.top
 
 所有学习过程几乎都在Chrome上进行，未做其他浏览器的兼容性测试或学习。个人觉得应该把宝贵而有限的时间精力投入到主流开发环境中提升更有意义的技术。
 
-由于这是一个纯前端的静态网站，所以暂时不提供留言板功能。请有意联系的小伙伴们通过[个人介绍](http://localhost:63342/myWeb/page/aboutMe.html)中的社交账号或本人邮箱daoke_li@qq.com留言，项目中有好的建议可以写在issue中。
+由于这是一个纯前端的静态网站，所以暂时不提供留言板功能。请有意联系的小伙伴们通过[个人介绍](http://localhost:63342/myWeb/page/aboutMe.html)中的社交账号或本人邮箱admin@e-art.top留言，项目中有好的建议可以写在issue中。
 
 更多请访问：http://e-art.top/page/aboutBlog.html
