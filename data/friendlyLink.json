@@ -56,11 +56,32 @@
       "imgSrc": "https://pengrl.com/images/default_avatar.jpeg",
       "url": "https://pengrl.com"
     }, {
-      "name": "记磊博客",
-      "disc": "记录记磊生活中所遇到的一点一滴，一生所遇，相知不易，相识更是缘分，记磊博客是一个自媒体博客，个人博客网站，分享seo实战技术，web前端技术，编程开发的优秀个人博客网站。",
-      "imgSrc": "https://www.ly522.com/wp-content/themes/vieu/static/img/favicon.ico",
-      "url": "https://www.ly522.com"
+      "name": "水寒",
+      "disc": "Android/Java/Kotlin/前端/嵌入式/Python",
+      "imgSrc": "https://dp2px.com/images/download_head.png",
+      "url": "https://dp2px.com"
+    }
+  ],
+  "publicFigure": [
+    {
+      "name": "阮一峰",
+      "disc": "在上海金融学院、国际经贸学院任教，也是一名IT大牛，主要关注web技术，并且对自由软件有着坚定不移的信念。",
+      "imgSrc": "http://www.ruanyifeng.com/blog/images/person2_s.jpg",
+      "url": "http://www.ruanyifeng.com"
     }, {
+      "name": "廖雪峰",
+      "disc": "技术作家，著有《Spring 2.0核心技术与最佳实践》 头条文章作者",
+      "imgSrc": "https://tva2.sinaimg.cn/crop.0.1.635.635.180/62d8efadgw1ej30downrsj20hs0hq0ws.jpg",
+      "url": "https://www.liaoxuefeng.com/"
+    }, {
+      "name": "张鑫旭",
+      "disc": "上海阅文信息技术有限公司用户体验设计师，其实本想做个生物学者的前端大牛",
+      "imgSrc": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/4b4d632fjw1e8qgp5bmzyj2050050aa8.jpg",
+      "url": "https://www.zhangxinxu.com/"
+    }
+  ],
+  "temp": [
+    {
       "name": "菜鸟博客",
       "disc": "这是一个交换友情链接的博客：“我们对交换链接的网站没有要求。如果您是本博客的友情链接网站，在遇到网站运行问题时，可以随时联系博主，我们将免费提供技术类支持！”",
       "imgSrc": "https://birdteam.net/wp-content/uploads/2017/12/2017122411334155.png",
@@ -80,24 +101,11 @@
       "disc": "大概是个程序猿吧",
       "imgSrc": "https://avatar.gitee.com/uploads/50/1856350_xuguorui.png!avatar100?1522758138",
       "url": "https://imxgr.com"
-    }
-  ],
-  "publicFigure": [
-    {
-      "name": "阮一峰",
-      "disc": "在上海金融学院、国际经贸学院任教，也是一名IT大牛，主要关注web技术，并且对自由软件有着坚定不移的信念。",
-      "imgSrc": "http://www.ruanyifeng.com/blog/images/person2_s.jpg",
-      "url": "http://www.ruanyifeng.com"
     }, {
-      "name": "廖雪峰",
-      "disc": "技术作家，著有《Spring 2.0核心技术与最佳实践》 头条文章作者",
-      "imgSrc": "https://tva2.sinaimg.cn/crop.0.1.635.635.180/62d8efadgw1ej30downrsj20hs0hq0ws.jpg",
-      "url": "https://www.liaoxuefeng.com/"
-    }, {
-      "name": "张鑫旭",
-      "disc": "上海阅文信息技术有限公司用户体验设计师，其实本想做个生物学者的前端大牛",
-      "imgSrc": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/4b4d632fjw1e8qgp5bmzyj2050050aa8.jpg",
-      "url": "https://www.zhangxinxu.com/"
+      "name": "记磊博客",
+      "disc": "记录记磊生活中所遇到的一点一滴，一生所遇，相知不易，相识更是缘分，记磊博客是一个自媒体博客，个人博客网站，分享seo实战技术，web前端技术，编程开发的优秀个人博客网站。",
+      "imgSrc": "https://www.ly522.com/wp-content/themes/vieu/static/img/favicon.ico",
+      "url": "https://www.ly522.com"
     }
   ]
 }
