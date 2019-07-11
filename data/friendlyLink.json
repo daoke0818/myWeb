@@ -60,6 +60,11 @@
       "disc": "Android/Java/Kotlin/前端/嵌入式/Python",
       "imgSrc": "https://dp2px.com/images/download_head.png",
       "url": "https://dp2px.com"
+    }, {
+      "name": "张亚东博客",
+      "disc": "一个程序员的个人博客，心之所向，无所不能",
+      "imgSrc": "https://static.zhyd.me/static/img/favicon.ico",
+      "url": "https://www.zhyd.me"
     }
   ],
   "publicFigure": [
