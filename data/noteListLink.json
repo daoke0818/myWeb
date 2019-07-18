@@ -1,0 +1,66 @@
+{
+  "notes": [
+    {
+      "title": "廖雪峰JavaScript教程笔记",
+      "disc": "离职期间，过了一遍廖雪峰大神的JavaScript教程(https://www.liaoxuefeng.com/wiki/1022910821149312)，前面的基础部分做了笔记（有道云笔记），由于时间和其他原因，后面underscore和nodeJS部分仅仅过目一遍，没有笔记",
+      "startTime": "2019-07",
+      "endTime": "",
+      "url": "http://note.youdao.com/noteshare?id=3b2e8dbb112f14237d7ccc077817843b"
+    },{
+      "title": "廖雪峰Git教程笔记",
+      "disc": "我看过关于学习git的教程中最棒的，语言幽默，通俗易懂，推荐大家学习(https://www.liaoxuefeng.com/wiki/896043488029600)",
+      "startTime": "2019-04",
+      "endTime": "",
+      "url": "https://note.youdao.com/ynoteshare1/index.html?id=4653994abae090b764e7fb65a039a7fe"
+    },{
+      "title": "刘国栋vue基础教程笔记",
+      "disc": "从前端入门不久就听说vue大名，准备学了好多次也因各种原因中断，直到春节前后拿出假期和工作中不忙的几天，以及坚持平时每天一小时，照刘国栋老师的图文教程过了一遍基础",
+      "startTime": "2019-01",
+      "endTime": "2019-03",
+      "url": "http://e-art.top/Js/vueStudy_liuguodong/pages/index.html"
+    },{
+      "title": "w3cschool.cn的js基础(不含ES6)",
+      "disc": "写了大半年的前端代码，回头来补补基础",
+      "startTime": "2017-10",
+      "endTime": "",
+      "url": "http://e-art.top/Js/jsBasics/"
+    },{
+      "title": "css3几个练习",
+      "disc": "过了一遍css3基础，然后找几个小例子试试效果",
+      "startTime": "2016-12",
+      "endTime": "",
+      "url": "http://e-art.top/Css/css3Practice/"
+    },{
+      "title": "《css3权威指南》学习笔记",
+      "disc": "2016年底，已经按部就班的用业余时间学习前端，转行悄悄的准备着，在这之前刚看完《CSS实战手册》。那时候没有孩子，业余时间充足，晚上几乎不加班，除了每天两三个小时，周末至少还有一天。",
+      "startTime": "2016-11",
+      "endTime": "2016-12",
+      "url": "http://e-art.top/Css/css3Basics/"
+    },{
+      "title": "《锋利的jQuery2》学习笔记",
+      "disc": "国庆节别人回家的回家玩的玩，我为了能顺利转行，从公司带回这本书好好翻了一下，详细学习并做笔记，不过当时代码比较乱，后来整理了选择器和简单的dom操作，现在也没时间弄了，先挂上去吧，有空再整理一下",
+      "startTime": "2016-10",
+      "endTime": "",
+      "url": "http://e-art.top/Js/jQueryBasics/"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
