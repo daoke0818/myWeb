@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=”renderer” content=”webkit”>
+    <meta name="referrer" content="never">
+    <title>学习笔记-关中刀客在青岛</title>
+    <meta name="keywords" content="关中刀客在青岛,喜欢音乐的程序猿,个人博客,web开发,前端技术博客">
+    <meta name="description" content="夕阳无限好，黄昏又如何——作者31岁转行，本站是以前端技术为主的个人博客">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_880295_rjcffpyn54o.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-4.3.1.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <style>
+        li.item{
+            list-style-type: none;
+            border-radius: .5rem;
+            background: rgba(0,0,0,.18);
+        }
+        li.item>h4>a{
+            display: block;
+        }
+    </style>
+</head>
+<body id="friendlyLink">
+<nav id="mainNav" class="navbar navbar-expand-md navbar-dark mb-md-5"></nav>
+<main class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="mt-5 mt-md-2 text-md-center">学习笔记</h2>
+            <p class="mb-5">由于每次笔记的记录时间环境不同，有的是web页面，有的是网易云笔记的链接，所以风格样式可能很不一致。
+        </div>
+        <ul id="noteList" class="px-4">
+            <li v-for="(item,index) in dataList" class="mb-3 p-3 item">
+<!--                <div class="">-->
+                    <h4 class="mb-3"><a :href="item.url" target="_blank">{{item.title}}</a></h4>
+                    <p class="mb-2">{{item.disc}}</p>
+                    <footer>
+                        {{item.startTime+(item.endTime ? ' ~ '+item.endTime:'')}}
+                    </footer>
+<!--                </div>-->
+            </li>
+        </ul>
+
+    </div>
+</main>
+<footer></footer>
+
+<script src="../assets/js/jquery-2.2.4.min.js"></script>
+<script src="../assets/js/bootstrap-4.3.1.min.js"></script>
+<script src="../assets/js/vue-2.6.10.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    let friendlyLink = new Vue({
+        el: '#noteList',
+        data: {
+            dataList: []
+        },
+        beforeMount() {
+            $.get('../data/noteListLink.json', data => {
+                this.dataList = data.notes
+            })
+        }
+    })
+</script>
+</body>
+</html>
