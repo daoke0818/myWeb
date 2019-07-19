@@ -22,6 +22,9 @@
         li.item>h4>a{
             display: block;
         }
+        li.item>footer{
+            color: rgba(255, 255, 255, 0.63);
+        }
     </style>
 </head>
 <body id="friendlyLink">
@@ -35,13 +38,11 @@
         </div>
         <ul id="noteList" class="px-4">
             <li v-for="(item,index) in dataList" class="mb-3 p-3 item">
-<!--                <div class="">-->
                     <h4 class="mb-3"><a :href="item.url" target="_blank">{{item.title}}</a></h4>
                     <p class="mb-2">{{item.disc}}</p>
                     <footer>
                         {{item.startTime+(item.endTime ? ' ~ '+item.endTime:'')}}
                     </footer>
-<!--                </div>-->
             </li>
         </ul>
 

@@ -19,11 +19,23 @@
       "endTime": "2019-03",
       "url": "http://e-art.top/Js/vueStudy_liuguodong/pages/index.html"
     },{
+      "title": "es6(ECMAScript2015)学习笔记",
+      "disc": "根据某个视频教程过了一遍es6，其实在今年5月份去北京出差时路上看了大部分，回来开始使用字符串模板等功能了。现在再过一次准备后面学vue用到",
+      "startTime": "2018-12",
+      "endTime": "",
+      "url": "http://note.youdao.com/noteshare?id=6ecee6ac1f98dab6eba4daa8b9fa65dc"
+    },{
       "title": "w3cschool.cn的js基础(不含ES6)",
-      "disc": "写了大半年的前端代码，回头来补补基础",
+      "disc": "写了半年的前端代码，花几天时间过一下最简单的基础，发现还有很多有用的方法技巧",
       "startTime": "2017-10",
       "endTime": "",
       "url": "http://e-art.top/Js/jsBasics/"
+    },{
+      "title": "ECMAScript基础(不含ES6)",
+      "disc": "正式加入前端开发两三个月，有点使用js的经验了，了解一下ECMAScript，学习教程为w3cschool的https://www.w3cschool.cn/ecmascript/。2018年初买了红宝书(JavaScript高级程序设计)，看了点，一小部分内容插入了其中。最早记笔记是在上下班路上的地铁里，用的备忘录写的，所以没什么样式，基本是纯文本。",
+      "startTime": "2017-06",
+      "endTime": "2017-11",
+      "url": "http://note.youdao.com/noteshare?id=6d54e6bfb0ad1736b55c45b96b45ec15"
     },{
       "title": "css3几个练习",
       "disc": "过了一遍css3基础，然后找几个小例子试试效果",
