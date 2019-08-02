@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="修改首页小伙伴们下面的链接样式，能多放几个">
+    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="完善笔记列表页">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/noteListLink.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/noteListLink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/topNav.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/topNav.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,31 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/friendlyLink.json">
+        <entry file="file://$PROJECT_DIR$/data/noteListLink.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/aboutBlog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="15" selection-start-line="9" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/aboutMe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1892">
-              <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="7" column="82" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -50,17 +29,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/notes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="418">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/noteListLink.json">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            <state relative-caret-position="397">
+              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/topNav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="60" column="85" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -120,15 +108,15 @@
         <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/page/websites.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/page/topNav.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/page/aboutBlog.html" />
         <option value="$PROJECT_DIR$/data/friendlyLink.json" />
         <option value="$PROJECT_DIR$/page/aboutMe.html" />
         <option value="$PROJECT_DIR$/page/friendlyLink.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/page/notes.html" />
         <option value="$PROJECT_DIR$/data/noteListLink.json" />
+        <option value="$PROJECT_DIR$/page/topNav.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -146,12 +134,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="myWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="myWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -166,6 +160,12 @@
             <path>
               <item name="myWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="myWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="friendlyLink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWeb" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -173,11 +173,19 @@
               <item name="myWeb" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="myWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +353,9 @@
       <workItem from="1558710195118" duration="634000" />
       <workItem from="1560256984896" duration="1650000" />
       <workItem from="1563441421984" duration="5554000" />
-      <workItem from="1563512709551" duration="5297000" />
+      <workItem from="1563512709551" duration="7008000" />
+      <workItem from="1563601838471" duration="549000" />
+      <workItem from="1564731082365" duration="971000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1517112585285</created>
@@ -578,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563463669078</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="完善笔记列表页">
+      <created>1563518316596</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1563518316596</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161979000" />
+    <option name="totallyTimeSpent" value="165210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,9 +625,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992948" weight="0.55181694" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992948" weight="0.12882096" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50070524" side_tool="true" weight="0.55181694" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4994726" weight="0.44354838" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4994726" weight="0.44323143" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3293348" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -693,7 +710,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="增加个人介绍页面" />
     <MESSAGE value="修改个人介绍页面" />
     <MESSAGE value="logo的动画" />
     <MESSAGE value="干掉网页计数器" />
@@ -718,7 +734,8 @@
     <MESSAGE value="首页在1440屏幕下的样式，归到笔记本范围——查询断点从1439改到1599" />
     <MESSAGE value="友情链接的标点符号" />
     <MESSAGE value="更新首页友情链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新首页友情链接" />
+    <MESSAGE value="完善笔记列表页" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善笔记列表页" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asserts/css/bootstrap.css" />
@@ -749,25 +766,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/friendlyLink.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        <state relative-caret-position="1144">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/aboutBlog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="15" selection-start-line="9" selection-end-line="10" />
+          <caret line="9" column="15" selection-start-line="9" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/aboutMe.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1892">
-          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
+          <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -778,13 +792,6 @@
             <caret line="11" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -805,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/topNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/friendlyLink.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -824,15 +824,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page/notes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/noteListLink.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="154">
+          <caret line="7" column="82" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/topNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="60" column="85" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
         </state>
       </provider>
     </entry>
