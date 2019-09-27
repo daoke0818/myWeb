@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="添加阿洛识字的链接">
+    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="新增笔记列表页面">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/websites.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/websites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/aboutMe.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,15 +44,20 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ROhRUm7tZHqsLDeb2ULepFT4Cl" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="81" />
+    <option name="width" value="1382" />
+    <option name="height" value="753" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -64,6 +68,12 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
@@ -221,13 +231,7 @@
       <workItem from="1558710195118" duration="634000" />
       <workItem from="1560256984896" duration="1650000" />
       <workItem from="1563441421984" duration="5554000" />
-      <workItem from="1563512709551" duration="7008000" />
-      <workItem from="1563601838471" duration="549000" />
-      <workItem from="1564731082365" duration="1691000" />
-      <workItem from="1565140711738" duration="31000" />
-      <workItem from="1565966820943" duration="757000" />
-      <workItem from="1566046176795" duration="339000" />
-      <workItem from="1569544043803" duration="629000" />
+      <workItem from="1563512709551" duration="5297000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1517112585285</created>
@@ -460,21 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563463669078</updated>
     </task>
-    <task id="LOCAL-00034" summary="完善笔记列表页">
-      <created>1563518316596</created>
+    <task id="LOCAL-00034" summary="新增nuxt仿美团笔记链接">
+      <created>1569553193588</created>
       <option name="number" value="00034" />
       <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1563518316596</updated>
+      <updated>1569553193589</updated>
     </task>
-    <task id="LOCAL-00035" summary="添加阿洛识字的链接">
-      <created>1564732086663</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1564732086663</updated>
-    </task>
-    <option name="localTasksCounter" value="36" />
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView">
@@ -529,6 +526,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="修改个人介绍页面" />
     <MESSAGE value="logo的动画" />
     <MESSAGE value="干掉网页计数器" />
     <MESSAGE value="干掉h2外面的a,优化移动端" />
@@ -552,8 +550,7 @@
     <MESSAGE value="首页在1440屏幕下的样式，归到笔记本范围——查询断点从1439改到1599" />
     <MESSAGE value="友情链接的标点符号" />
     <MESSAGE value="更新首页友情链接" />
-    <MESSAGE value="完善笔记列表页" />
-    <MESSAGE value="添加阿洛识字的链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加阿洛识字的链接" />
+    <MESSAGE value="新增nuxt仿美团笔记链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增nuxt仿美团笔记链接" />
   </component>
 </project>
