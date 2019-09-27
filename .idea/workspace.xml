@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="新增笔记列表页面">
+    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="优化个人介绍">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/aboutMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/friendlyLink.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/friendlyLink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/friendlyLink.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/friendlyLink.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +51,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="81" />
-    <option name="width" value="1382" />
-    <option name="height" value="753" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -471,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569553193589</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="优化个人介绍">
+      <created>1569554041729</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1569554041729</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -526,7 +528,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="修改个人介绍页面" />
     <MESSAGE value="logo的动画" />
     <MESSAGE value="干掉网页计数器" />
     <MESSAGE value="干掉h2外面的a,优化移动端" />
@@ -551,6 +552,7 @@
     <MESSAGE value="友情链接的标点符号" />
     <MESSAGE value="更新首页友情链接" />
     <MESSAGE value="新增nuxt仿美团笔记链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增nuxt仿美团笔记链接" />
+    <MESSAGE value="优化个人介绍" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化个人介绍" />
   </component>
 </project>

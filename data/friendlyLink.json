@@ -2,7 +2,7 @@
   "friends": [
     {
       "name": "fuhtead",
-      "disc": "futhead，2013年6月毕业于某二流大学核化工与核燃料工程专业，后在某IDC机房做网管，期间自学编程，依次从事过Android，PHP，JavaWeb，前端，测试，运维，GIS，大数据等相关开发工作，如无意外，下份工作应该是Python全栈，侧重NLP方向。",
+      "disc": "futhead，2013年6月毕业于某二流大学核化工与核燃料工程专业，后在某IDC机房做网管，期间自学编程，依次从事过Android，PHP，JavaWeb，前端，测试，运维，GIS，大数据等相关开发工作",
       "imgSrc": "https://avatar.csdn.net/2/C/8/3_fuhtead.jpg",
       "url": "https://me.csdn.net/fuhtead"
     }, {
@@ -65,6 +65,11 @@
       "disc": "一个程序员的个人博客，心之所向，无所不能",
       "imgSrc": "https://static.zhyd.me/static/img/favicon.ico",
       "url": "https://www.zhyd.me"
+    }, {
+      "name": "饭饭's Blog",
+      "disc": "Noisky，一名来自2.5次元的膜法师——不忘初心，方得始终",
+      "imgSrc": "https://ffis.me/favicon.ico",
+      "url": "https://ffis.me/"
     }
   ],
   "publicFigure": [
