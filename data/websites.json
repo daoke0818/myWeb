@@ -53,7 +53,20 @@
       "disc": "一款音乐软件",
       "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
       "url": "http://e-art.top/download/musicPro.apk"
+    },
+    {
+      "name": "家政上岗协议",
+      "disc": "家政上岗协议",
+      "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
+      "url": "http://e-art.top/download/家政上岗协议.docx"
+    },
+    {
+      "name": "个人简历20191007_2页",
+      "disc": "个人简历20191007_2页",
+      "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
+      "url": "http://e-art.top/download/个人简历20191007_2页.docx"
     }
+
   ],
   "dead": []
 }

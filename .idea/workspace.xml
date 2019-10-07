@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="优化个人介绍">
+    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="友链页面修改，添加https://ffis.me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/friendlyLink.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/friendlyLink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/friendlyLink.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/friendlyLink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/websites.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/websites.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1RsEfG2AbkG9sfVdtHnG0v9mZD9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -227,6 +227,7 @@
       <workItem from="1560256984896" duration="1650000" />
       <workItem from="1563441421984" duration="5554000" />
       <workItem from="1563512709551" duration="5297000" />
+      <workItem from="1570447506328" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1517112585285</created>
@@ -473,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569554041729</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="友链页面修改，添加https://ffis.me">
+      <created>1569555662515</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1569555662515</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -528,7 +536,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="logo的动画" />
     <MESSAGE value="干掉网页计数器" />
     <MESSAGE value="干掉h2外面的a,优化移动端" />
     <MESSAGE value="增加博客介绍页面。还未写完。" />
@@ -553,6 +560,7 @@
     <MESSAGE value="更新首页友情链接" />
     <MESSAGE value="新增nuxt仿美团笔记链接" />
     <MESSAGE value="优化个人介绍" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化个人介绍" />
+    <MESSAGE value="友链页面修改，添加https://ffis.me" />
+    <option name="LAST_COMMIT_MESSAGE" value="友链页面修改，添加https://ffis.me" />
   </component>
 </project>
