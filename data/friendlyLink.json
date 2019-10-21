@@ -19,12 +19,14 @@
       "name": "何海宝的博客",
       "disc": "何海宝(hehaibao)的个人技术博客, 基于wordpress开发，是一个致力于WEB前后端技术学习与分享的个人博客，内容包含web前端(javascript,html,css,jquery,vue,zepto,angular等)，web后端(php+mysql)，SEO，WordPress，服务器，主题开发相关等技术。关注用户体验，关注IT互联网。",
       "imgSrc": "../img/friendlyLink/logo_hehaibao.png",
-      "url": "http://www.hehaibao.com"
+      "url": "http://www.hehaibao.com",
+      "type":"ico"
     }, {
       "name": "青格勒",
       "disc": "前端技术 | 分享让你更聪明",
       "imgSrc": "http://2.gravatar.com/avatar/e164fdafecc109e54ac4cb7f57c92c11?s=32&d=retro&r=g",
-      "url": "http://cenggel.com/"
+      "url": "http://cenggel.com/",
+      "type":"ico"
     }, {
       "name": "crazycodes",
       "disc": "PHP/Go开发工程师，菜鸡架构师，开源爱好者",
@@ -63,8 +65,9 @@
     }, {
       "name": "张亚东博客",
       "disc": "一个程序员的个人博客，心之所向，无所不能",
-      "imgSrc": "https://static.zhyd.me/static/img/favicon.ico",
-      "url": "https://www.zhyd.me"
+      "imgSrc": "../img/friendlyLink/logo_zhangyadong.ico",
+      "url": "https://www.zhyd.me",
+      "type":"ico"
     }, {
       "name": "饭饭's Blog",
       "disc": "Noisky，一名来自2.5次元的膜法师——不忘初心，方得始终",

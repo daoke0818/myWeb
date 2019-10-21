@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="简历下载链接">
+    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="博客简介中链接新窗口打开">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/aboutBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/aboutBlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/friendlyLink.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/friendlyLink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/friendlyLink.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/friendlyLink.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/friendlyLink" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -229,7 +230,9 @@
       <workItem from="1563512709551" duration="5297000" />
       <workItem from="1570447506328" duration="276000" />
       <workItem from="1570679170460" duration="1839000" />
-      <workItem from="1571641498586" duration="2059000" />
+      <workItem from="1571641498586" duration="2272000" />
+      <workItem from="1571662236554" duration="2927000" />
+      <workItem from="1571699885927" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1517112585285</created>
@@ -490,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570447769393</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="博客简介添加WebStorm对开源的支持">
+      <created>1571643873945</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1571643873945</updated>
+    </task>
+    <task id="LOCAL-00039" summary="博客简介中链接新窗口打开">
+      <created>1571663902075</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1571663902075</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -545,8 +562,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="干掉h2外面的a,优化移动端" />
-    <MESSAGE value="增加博客介绍页面。还未写完。" />
     <MESSAGE value="增加关于博客页面" />
     <MESSAGE value="修改关于博客，提取主导航用jquery的load加载" />
     <MESSAGE value="解决冲突" />
@@ -570,6 +585,8 @@
     <MESSAGE value="优化个人介绍" />
     <MESSAGE value="友链页面修改，添加https://ffis.me" />
     <MESSAGE value="简历下载链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="简历下载链接" />
+    <MESSAGE value="博客简介添加WebStorm对开源的支持" />
+    <MESSAGE value="博客简介中链接新窗口打开" />
+    <option name="LAST_COMMIT_MESSAGE" value="博客简介中链接新窗口打开" />
   </component>
 </project>
