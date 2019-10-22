@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="博客简介中链接新窗口打开">
+    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="友情链接中给ico加padding，不能使用外链的ico放入本地(张亚东)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/friendlyLink.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/friendlyLink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/aboutBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/aboutBlog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/friendlyLink.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/friendlyLink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/notes.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,29 +23,6 @@
         <option value="tsconfig.json" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>hover</find>
-      <find>media</find>
-      <find>header</find>
-      <find>contai</find>
-      <find>list-group-item</find>
-      <find>container</find>
-      <find>h4</find>
-      <find>shadows</find>
-      <find>shadow</find>
-      <find>friendlyLink.json</find>
-      <find>常用链接</find>
-      <find>outline</find>
-      <find>h2</find>
-      <find>.git</find>
-      <find>footer</find>
-      <find>daoke_li</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -71,15 +51,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\git\myWeb\img\friendlyLink" />
       <recent name="B:\git\myWeb\data" />
       <recent name="B:\git\myWeb\page" />
       <recent name="B:\git\myWeb\img" />
       <recent name="B:\git\myWeb\home\myWeb\data" />
-      <recent name="B:\git\myWeb\video" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,7 +212,9 @@
       <workItem from="1570679170460" duration="1839000" />
       <workItem from="1571641498586" duration="2272000" />
       <workItem from="1571662236554" duration="2927000" />
-      <workItem from="1571699885927" duration="1655000" />
+      <workItem from="1571699885927" duration="2373000" />
+      <workItem from="1571702279658" duration="2212000" />
+      <workItem from="1571751785226" duration="4861000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1517112585285</created>
@@ -507,7 +489,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571663902075</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="友情链接中给ico加padding，不能使用外链的ico放入本地(张亚东)">
+      <created>1571701832204</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1571701832204</updated>
+    </task>
+    <task id="LOCAL-00041" summary="添加.gitignore">
+      <created>1571702360499</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1571702360499</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -562,8 +558,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="增加关于博客页面" />
-    <MESSAGE value="修改关于博客，提取主导航用jquery的load加载" />
     <MESSAGE value="解决冲突" />
     <MESSAGE value="增加博客介绍页面的logo图片，友情链接页面" />
     <MESSAGE value="友情链接基本样式" />
@@ -587,6 +581,8 @@
     <MESSAGE value="简历下载链接" />
     <MESSAGE value="博客简介添加WebStorm对开源的支持" />
     <MESSAGE value="博客简介中链接新窗口打开" />
-    <option name="LAST_COMMIT_MESSAGE" value="博客简介中链接新窗口打开" />
+    <MESSAGE value="友情链接中给ico加padding，不能使用外链的ico放入本地(张亚东)" />
+    <MESSAGE value="添加.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加.gitignore" />
   </component>
 </project>

@@ -1,4 +1,8 @@
 $(function () {
+    setTimeout(function () {
+        $('html>head>title').after('<link rel="stylesheet" href="//at.alicdn.com/t/font_880295_s7rtthy10q.css">')
+    },500);
+
     // 加载主导航
     $('body>#mainNav').load('../page/topNav.html #mainNav>*',function () {
 
@@ -27,4 +31,18 @@ $(function () {
         <a href="https://github.com/daoke0818/myWeb" target="_blank" title="github上的源码"><i class="iconfont i-github_bg"></i></a>
         <a href="https://gitee.com/daoke0818/myWeb" target="_blank" title="码云上的源码"><i class="iconfont i-gitee_bg"></i></a>
     `);
+
+    // 所有外链在新窗口打开
+    setTimeout(function () {
+        $('body:not("#index") :not("#mainNav a") ').filter((index,item)=>{
+            console.log(index,$(item).attr('href'));
+            const href = $(item).attr('href') || '';
+            return href.startsWith('http')
+                &&!$(item).find('i').hasClass('i-gitee_bg')
+                &&!$(item).find('i').hasClass('i-github_bg')
+                &&!$(item).hasClass('contact-item')
+                &&!$(item).hasClass('logo')
+                &&!$(item).parent().hasClass('card')
+        }).append('<i class="iconfont i-wailian"></i>').attr('target','_blank')
+    },500)
 });
