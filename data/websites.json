@@ -19,6 +19,12 @@
       "url": "http://www.chinaw3c.org/"
     },
     {
+      "name": "JetBrains/WebStorm",
+      "disc": "一款对开源贡献者提供免费许可的友好前端编辑器，利用现代JavaScript生态系统的全部功能-WebStorm可以满足您的要求！享受智能代码完成，动态错误检测，强大的JavaScript和TypeScript，样式表语言以及所有流行框架的导航和重构功能。",
+      "imgSrc": "https://www.jetbrains.com/apple-touch-icon.png",
+      "url": "https://www.jetbrains.com/webstorm/"
+    },
+    {
       "name": "Bootstrap4中文文档",
       "disc": "Bootstrap是当前世界最受欢迎的响应式、移动设备优先的门户和应用前端框架。在其中，你将发现高质量的HTML、CSS以及JavaScript，使您的WEB工程项目变得无比简单，包括官方的CDN和启动器服务。",
       "imgSrc": "http://code.z01.com/v4/assets/img/favicons/apple-touch-icon.png",
@@ -61,11 +67,18 @@
       "url": "http://e-art.top/download/家政上岗协议.docx"
     },
     {
-      "name": "个人简历20191007_2页",
-      "disc": "个人简历20191007_2页",
+      "name": "简历_前端开发_李建龙_2周上岗",
+      "disc": "简历_前端开发_李建龙_2周上岗",
       "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
-      "url": "http://e-art.top/download/个人简历20191007_2页.docx"
+      "url": "http://e-art.top/download/简历_前端开发_李建龙_2周上岗.docx"
+    },
+    {
+      "name": "简历_前端开发_李建龙_2周上岗1013",
+      "disc": "简历_前端开发_李建龙_2周上岗1013",
+      "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
+      "url": "http://e-art.top/download/简历_前端开发_李建龙_2周上岗1013.docx"
     }
+
 
   ],
   "dead": []
