@@ -1,7 +1,10 @@
 $(function () {
+    // 加载公共样式
     setTimeout(function () {
-        $('html>head>title').after('<link rel="stylesheet" href="//at.alicdn.com/t/font_880295_s7rtthy10q.css">')
-    },500);
+        $('html>head>title')
+            .after('<link rel="stylesheet" href="//at.alicdn.com/t/font_880295_s7rtthy10q.css">')
+            .after('<link rel="shortcut icon" href="../img/favicon.ico">')
+    },0);
 
     // 加载主导航
     $('body>#mainNav').load('../page/topNav.html #mainNav>*',function () {
