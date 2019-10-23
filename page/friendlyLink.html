@@ -106,7 +106,7 @@
 			</ul>
 		</div>
 		<div id="friendlyList" class="card-columns">
-			<div v-for="(item,index) in dataList" class="card">
+			<div v-for="(item,index) in dataList" class="card" v-cloak>
 				<a :href="item.url" target="_blank" class="item">
 					<img :src="item.imgSrc" alt="item.name" :style="item.type==='ico'?'padding:1.5rem;':''">
 					<h4>{{item.name}}</h4>

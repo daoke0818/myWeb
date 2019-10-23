@@ -36,7 +36,7 @@
             <p class="mb-5">由于每次笔记的记录时间环境不同，有web页面、网易云笔记和纯文本几种，所以风格样式可能很不一致。
         </div>
         <ul id="noteList" class="px-4">
-            <li v-for="(item,index) in dataList" class="mb-3 p-3 item">
+            <li v-for="(item,index) in dataList" class="mb-3 p-3 item" v-cloak>
                     <h4 class="mb-3"><a :href="item.url" target="_blank">{{item.title}}</a></h4>
                     <p class="mb-2" v-html="item.disc"></p>
                     <footer>

@@ -75,7 +75,7 @@
     <div class="row">
         <h2 class="col-12 text-center">常去网站</h2>
 
-        <div class="col-sm-6 col-md-4 col-lg-3" v-for="(item,index) in dataList">
+        <div class="col-sm-6 col-md-4 col-lg-3" v-for="(item,index) in dataList" v-cloak>
             <a :href="item.url" target="_blank" class=" card item" :title="item.disc">
                 <div class="row no-gutters" style="height: 100%;">
                     <div class="col-3 col-md-4 img-box" :style="{backgroundImage: 'url('+item.imgSrc+')'}"></div>

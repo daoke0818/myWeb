@@ -182,3 +182,8 @@ h2{
         box-shadow: 0 -0.25rem 0.5rem rgba(0, 0, 0, .9);
     }
 }
+
+/*vue防止花括号出现导致闪烁*/
+[v-cloak] {
+    display: none;
+}
