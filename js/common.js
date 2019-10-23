@@ -32,12 +32,13 @@ $(function () {
         <a href="https://gitee.com/daoke0818/myWeb" target="_blank" title="码云上的源码"><i class="iconfont i-gitee_bg"></i></a>
     `);
 
-    // 所有外链在新窗口打开
+    // 文中所有外链在新窗口打开
     setTimeout(function () {
         $('body:not("#index") :not("#mainNav a") ').filter((index,item)=>{
             console.log(index,$(item).attr('href'));
             const href = $(item).attr('href') || '';
             return href.startsWith('http')
+                &&!href.startsWith('http://e-art.top')
                 &&!$(item).find('i').hasClass('i-gitee_bg')
                 &&!$(item).find('i').hasClass('i-github_bg')
                 &&!$(item).hasClass('contact-item')
