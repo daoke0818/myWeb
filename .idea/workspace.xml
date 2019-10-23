@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="友情链接中给ico加padding，不能使用外链的ico放入本地(张亚东)">
+    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="所有页面的a链接加入外链图标，并且打开新窗口。相关js提出来写到common.js里。更新字体">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/aboutBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/aboutBlog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/friendlyLink.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/friendlyLink.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/notes.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +211,8 @@
       <workItem from="1571662236554" duration="2927000" />
       <workItem from="1571699885927" duration="2373000" />
       <workItem from="1571702279658" duration="2212000" />
-      <workItem from="1571751785226" duration="4861000" />
+      <workItem from="1571751785226" duration="5200000" />
+      <workItem from="1571785732564" duration="6752000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1517112585285</created>
@@ -503,7 +501,42 @@
       <option name="project" value="LOCAL" />
       <updated>1571702360499</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="所有页面的a链接加入外链图标，并且打开新窗口。相关js提出来写到common.js里。更新字体">
+      <created>1571758193104</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1571758193104</updated>
+    </task>
+    <task id="LOCAL-00043" summary="外量样式bug修复">
+      <created>1571788971711</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1571788971711</updated>
+    </task>
+    <task id="LOCAL-00044" summary="vue遍历中加入v-cloak防止双括号出现的闪烁">
+      <created>1571789476673</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1571789476673</updated>
+    </task>
+    <task id="LOCAL-00045" summary="v-cloak 加权重">
+      <created>1571790651997</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1571790651997</updated>
+    </task>
+    <task id="LOCAL-00046" summary="把所有页面的shortcut icon写在js里异步加载。">
+      <created>1571791119756</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1571791119756</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView">
@@ -558,11 +591,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="解决冲突" />
-    <MESSAGE value="增加博客介绍页面的logo图片，友情链接页面" />
-    <MESSAGE value="友情链接基本样式" />
-    <MESSAGE value="友情链接水平排列样式" />
-    <MESSAGE value="友情链接效果微调，提取非首页的公共css到common.css里" />
     <MESSAGE value="有bug的瀑布流排列——折行" />
     <MESSAGE value="友情链接页面效果确定" />
     <MESSAGE value="首页媒体查询代码整理；移动端样式调整" />
@@ -583,6 +611,11 @@
     <MESSAGE value="博客简介中链接新窗口打开" />
     <MESSAGE value="友情链接中给ico加padding，不能使用外链的ico放入本地(张亚东)" />
     <MESSAGE value="添加.gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加.gitignore" />
+    <MESSAGE value="所有页面的a链接加入外链图标，并且打开新窗口。相关js提出来写到common.js里。更新字体" />
+    <MESSAGE value="外量样式bug修复" />
+    <MESSAGE value="vue遍历中加入v-cloak防止双括号出现的闪烁" />
+    <MESSAGE value="v-cloak 加权重" />
+    <MESSAGE value="把所有页面的shortcut icon写在js里异步加载。" />
+    <option name="LAST_COMMIT_MESSAGE" value="把所有页面的shortcut icon写在js里异步加载。" />
   </component>
 </project>

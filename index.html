@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body id="index">
+<div class="bgVideo">
+    <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛</h1>
+</div>
 <header hidden class="d-md-block">
     <h1 class="text-center">夕阳无限好，<br class=" d-md-none">黄昏又如何？</h1>
     <a href="http://e-art.top" class="logo" title="关中刀客在青岛">
@@ -138,6 +141,11 @@
 <script src="js/common.js"></script>
 <script>
     $(function () {
+        if($(window).width()>=576){
+            $('.bgVideo').append(`
+                <video autoplay class="d-md-block" loop src="video/SF_SutroBaths-4K_nimia_573584_768_ZH-CN.mp4"></video>
+            `);
+        }
     })
 
 </script>
