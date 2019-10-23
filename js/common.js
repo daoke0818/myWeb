@@ -1,6 +1,7 @@
 $(function () {
     // 加载公共样式
     setTimeout(function () {
+        if ($('body#index').length) return;
         $('html>head>title')
             .after('<link rel="stylesheet" href="//at.alicdn.com/t/font_880295_s7rtthy10q.css">')
             .after('<link rel="shortcut icon" href="../img/favicon.ico">')
