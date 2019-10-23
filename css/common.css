@@ -185,5 +185,5 @@ h2{
 
 /*vue防止花括号出现导致闪烁*/
 [v-cloak] {
-    display: none;
+    display: none!important;
 }
