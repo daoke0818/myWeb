@@ -59,13 +59,14 @@
       "disc": "一款音乐软件",
       "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
       "url": "http://e-art.top/download/musicPro.apk"
-    },
-    {
-      "name": "家政上岗协议",
-      "disc": "家政上岗协议",
-      "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
-      "url": "http://e-art.top/download/家政上岗协议.docx"
-    },
+    }
+  ],
+  "dead": [    {
+    "name": "家政上岗协议",
+    "disc": "家政上岗协议",
+    "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
+    "url": "http://e-art.top/download/家政上岗协议.docx"
+  },
     {
       "name": "简历_前端开发_李建龙_2周上岗",
       "disc": "简历_前端开发_李建龙_2周上岗",
@@ -78,8 +79,5 @@
       "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
       "url": "http://e-art.top/download/简历_前端开发_李建龙_2周上岗1013.docx"
     }
-
-
-  ],
-  "dead": []
+  ]
 }
