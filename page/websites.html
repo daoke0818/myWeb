@@ -8,8 +8,6 @@
     <title>常用网站-关中刀客在青岛</title>
     <meta name="keywords" content="关中刀客在青岛,喜欢音乐的程序猿,个人博客,web开发,前端技术博客">
     <meta name="description" content="夕阳无限好，黄昏又如何——作者31岁转行，本站是以前端技术为主的个人博客">
-    <link rel="shortcut icon" href="../img/favicon.ico">
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_880295_rjcffpyn54o.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-4.3.1.min.css">
     <link rel="stylesheet" href="../css/common.css">
     <style>
@@ -76,7 +74,7 @@
     <div class="row">
         <h2 class="col-12 text-center">常去网站</h2>
 
-        <div class="col-sm-6 col-md-4 col-lg-3" v-for="(item,index) in dataList">
+        <div class="col-sm-6 col-md-4 col-lg-3" v-for="(item,index) in dataList" v-cloak>
             <a :href="item.url" target="_blank" class=" card item" :title="item.disc">
                 <div class="row no-gutters" style="height: 100%;">
                     <div class="col-3 col-md-4 img-box" :style="{backgroundImage: 'url('+item.imgSrc+')'}"></div>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="添加阿洛识字的链接">
+    <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="优化背景和视频的加载">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/websites.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/websites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,29 +20,6 @@
         <option value="tsconfig.json" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>hover</find>
-      <find>media</find>
-      <find>header</find>
-      <find>contai</find>
-      <find>list-group-item</find>
-      <find>container</find>
-      <find>h4</find>
-      <find>shadows</find>
-      <find>shadow</find>
-      <find>friendlyLink.json</find>
-      <find>常用链接</find>
-      <find>outline</find>
-      <find>h2</find>
-      <find>.git</find>
-      <find>footer</find>
-      <find>daoke_li</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -61,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/friendlyLink" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,15 +48,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\git\myWeb\img\friendlyLink" />
       <recent name="B:\git\myWeb\data" />
       <recent name="B:\git\myWeb\page" />
       <recent name="B:\git\myWeb\img" />
       <recent name="B:\git\myWeb\home\myWeb\data" />
-      <recent name="B:\git\myWeb\video" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,7 +205,14 @@
       <workItem from="1560256984896" duration="1650000" />
       <workItem from="1563441421984" duration="5554000" />
       <workItem from="1563512709551" duration="5297000" />
-      <workItem from="1570447506328" duration="204000" />
+      <workItem from="1570447506328" duration="276000" />
+      <workItem from="1570679170460" duration="1839000" />
+      <workItem from="1571641498586" duration="2272000" />
+      <workItem from="1571662236554" duration="2927000" />
+      <workItem from="1571699885927" duration="2373000" />
+      <workItem from="1571702279658" duration="2212000" />
+      <workItem from="1571751785226" duration="5200000" />
+      <workItem from="1571785732564" duration="13038000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1517112585285</created>
@@ -481,7 +466,84 @@
       <option name="project" value="LOCAL" />
       <updated>1569555662515</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="简历下载链接">
+      <created>1570447769393</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1570447769393</updated>
+    </task>
+    <task id="LOCAL-00038" summary="博客简介添加WebStorm对开源的支持">
+      <created>1571643873945</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1571643873945</updated>
+    </task>
+    <task id="LOCAL-00039" summary="博客简介中链接新窗口打开">
+      <created>1571663902075</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1571663902075</updated>
+    </task>
+    <task id="LOCAL-00040" summary="友情链接中给ico加padding，不能使用外链的ico放入本地(张亚东)">
+      <created>1571701832204</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1571701832204</updated>
+    </task>
+    <task id="LOCAL-00041" summary="添加.gitignore">
+      <created>1571702360499</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1571702360499</updated>
+    </task>
+    <task id="LOCAL-00042" summary="所有页面的a链接加入外链图标，并且打开新窗口。相关js提出来写到common.js里。更新字体">
+      <created>1571758193104</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1571758193104</updated>
+    </task>
+    <task id="LOCAL-00043" summary="外量样式bug修复">
+      <created>1571788971711</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1571788971711</updated>
+    </task>
+    <task id="LOCAL-00044" summary="vue遍历中加入v-cloak防止双括号出现的闪烁">
+      <created>1571789476673</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1571789476673</updated>
+    </task>
+    <task id="LOCAL-00045" summary="v-cloak 加权重">
+      <created>1571790651997</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1571790651997</updated>
+    </task>
+    <task id="LOCAL-00046" summary="把所有页面的shortcut icon写在js里异步加载。">
+      <created>1571791119756</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1571791119756</updated>
+    </task>
+    <task id="LOCAL-00047" summary="优化背景和视频的加载">
+      <created>1571794200193</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1571794200193</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -536,17 +598,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="干掉网页计数器" />
-    <MESSAGE value="干掉h2外面的a,优化移动端" />
-    <MESSAGE value="增加博客介绍页面。还未写完。" />
-    <MESSAGE value="增加关于博客页面" />
-    <MESSAGE value="修改关于博客，提取主导航用jquery的load加载" />
-    <MESSAGE value="解决冲突" />
-    <MESSAGE value="增加博客介绍页面的logo图片，友情链接页面" />
-    <MESSAGE value="友情链接基本样式" />
-    <MESSAGE value="友情链接水平排列样式" />
-    <MESSAGE value="友情链接效果微调，提取非首页的公共css到common.css里" />
-    <MESSAGE value="有bug的瀑布流排列——折行" />
     <MESSAGE value="友情链接页面效果确定" />
     <MESSAGE value="首页媒体查询代码整理；移动端样式调整" />
     <MESSAGE value="增加常用网址页面" />
@@ -561,6 +612,17 @@
     <MESSAGE value="新增nuxt仿美团笔记链接" />
     <MESSAGE value="优化个人介绍" />
     <MESSAGE value="友链页面修改，添加https://ffis.me" />
-    <option name="LAST_COMMIT_MESSAGE" value="友链页面修改，添加https://ffis.me" />
+    <MESSAGE value="简历下载链接" />
+    <MESSAGE value="博客简介添加WebStorm对开源的支持" />
+    <MESSAGE value="博客简介中链接新窗口打开" />
+    <MESSAGE value="友情链接中给ico加padding，不能使用外链的ico放入本地(张亚东)" />
+    <MESSAGE value="添加.gitignore" />
+    <MESSAGE value="所有页面的a链接加入外链图标，并且打开新窗口。相关js提出来写到common.js里。更新字体" />
+    <MESSAGE value="外量样式bug修复" />
+    <MESSAGE value="vue遍历中加入v-cloak防止双括号出现的闪烁" />
+    <MESSAGE value="v-cloak 加权重" />
+    <MESSAGE value="把所有页面的shortcut icon写在js里异步加载。" />
+    <MESSAGE value="优化背景和视频的加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化背景和视频的加载" />
   </component>
 </project>

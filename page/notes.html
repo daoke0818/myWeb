@@ -8,7 +8,6 @@
     <title>学习笔记-关中刀客在青岛</title>
     <meta name="keywords" content="关中刀客在青岛,喜欢音乐的程序猿,个人博客,web开发,前端技术博客">
     <meta name="description" content="夕阳无限好，黄昏又如何——作者31岁转行，本站是以前端技术为主的个人博客">
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_880295_rjcffpyn54o.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-4.3.1.min.css">
     <link rel="stylesheet" href="../css/common.css">
     <style>
@@ -37,7 +36,7 @@
             <p class="mb-5">由于每次笔记的记录时间环境不同，有web页面、网易云笔记和纯文本几种，所以风格样式可能很不一致。
         </div>
         <ul id="noteList" class="px-4">
-            <li v-for="(item,index) in dataList" class="mb-3 p-3 item">
+            <li v-for="(item,index) in dataList" class="mb-3 p-3 item" v-cloak>
                     <h4 class="mb-3"><a :href="item.url" target="_blank">{{item.title}}</a></h4>
                     <p class="mb-2" v-html="item.disc"></p>
                     <footer>

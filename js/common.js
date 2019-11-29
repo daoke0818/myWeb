@@ -1,24 +1,26 @@
 $(function () {
+    // 加载公共样式
+    setTimeout(function () {
+        if ($('body#index').length) return;
+        $('html>head>title')
+            .after('<link rel="stylesheet" href="//at.alicdn.com/t/font_880295_s7rtthy10q.css">')
+            .after('<link rel="shortcut icon" href="../img/favicon.ico">')
+    },0);
+
+    // 页面背景
+    setTimeout(function () {
+        // video标签写上autoplay属性会导致即使隐藏了整个标签，仍然会在手机QQ浏览器中自动播放出来，所以只能采取如下办法来处理
+        $('body').not('#index').prepend(`
+            <div class="bgVideo">
+                <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛</h1>
+            </div>
+        `);
+
+    },0);
     // 加载主导航
     $('body>#mainNav').load('../page/topNav.html #mainNav>*',function () {
 
     });
-
-    // video标签写上autoplay属性会导致即使隐藏了整个标签，仍然会在手机QQ浏览器中自动播放出来，所以只能采取如下办法来处理
-    if($(window).width()<576){
-        $('body').prepend(`
-        <div class="bgVideo">
-            <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛的博客首页</h1>
-        </div>
-    `);
-    }else{
-        $('body').prepend(`
-        <div class="bgVideo">
-            <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛的博客首页</h1>
-            <video autoplay class="d-md-block" loop src="video/SF_SutroBaths-4K_nimia_573584_768_ZH-CN.mp4"></video>
-        </div>
-    `);
-    }
 
     // 加载footer
     $('body>footer').addClass('text-center mainFooter').html(`
@@ -27,4 +29,18 @@ $(function () {
         <a href="https://github.com/daoke0818/myWeb" target="_blank" title="github上的源码"><i class="iconfont i-github_bg"></i></a>
         <a href="https://gitee.com/daoke0818/myWeb" target="_blank" title="码云上的源码"><i class="iconfont i-gitee_bg"></i></a>
     `);
+
+    // 文中所有外链在新窗口打开
+    setTimeout(function () {
+        $('body:not("#index") :not("#mainNav a") ').filter((index,item)=>{
+            const href = $(item).attr('href') || '';
+            return href.startsWith('http')
+                &&!href.startsWith('http://e-art.top')
+                &&!$(item).find('i').hasClass('i-gitee_bg')
+                &&!$(item).find('i').hasClass('i-github_bg')
+                &&!$(item).hasClass('contact-item')
+                &&!$(item).hasClass('logo')
+                &&!$(item).parent().hasClass('card')
+        }).append('<i class="iconfont i-wailian"></i>').attr('target','_blank')
+    },500)
 });

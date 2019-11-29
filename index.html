@@ -7,14 +7,16 @@
     <title>关中刀客在青岛</title>
     <meta name="keywords" content="关中刀客在青岛,喜欢音乐的程序猿,个人博客,web开发,前端技术博客">
     <meta name="description" content="夕阳无限好，黄昏又如何——作者31岁转行，本站是以前端技术为主的个人博客">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_880295_s7rtthy10q.css">
     <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="assets/css/bootstrap-4.3.1.css">
-    <!--    <link rel="stylesheet" href="asserts/fonts/iconfont.css">-->
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_880295_rjcffpyn54o.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-4.3.1.min.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body id="index">
+<div class="bgVideo">
+    <h1 style="position: absolute;left: 99999px;display: none">关中刀客在青岛</h1>
+</div>
 <header hidden class="d-md-block">
     <h1 class="text-center">夕阳无限好，<br class=" d-md-none">黄昏又如何？</h1>
     <a href="http://e-art.top" class="logo" title="关中刀客在青岛">
@@ -51,26 +53,30 @@
             <h2 class="text-center">项目</h2>
             <ul class="list-group">
                 <li class="list-group-item">
-                    <a href="http://e-art.top/projects/bigScreenCharts">可视化大屏图表
-                        <object><a href="https://github.com/daoke0818/pro_bigScreenCharts" target="_blank"
+                    <a href="http://e-art.top/projects/bigScreenCharts/">可视化大屏图表
+                        <object><a href="https://github.com/daoke0818/pro_bigScreenCharts/" target="_blank"
                                    title="github上的源码"><i class="iconfont i-github_bg"></i></a></object>
-                        <object><a href="https://gitee.com/daoke0818/pro_bigScreenCharts" target="_blank"
+                        <object><a href="https://gitee.com/daoke0818/pro_bigScreenCharts/" target="_blank"
                                    title="码云上的源码"><i class="iconfont i-gitee_bg"></i></a></object>
                     </a>
                 </li>
-                <li class="list-group-item"><a href="http://e-art.top/projects/yigonglianmeng">北京义工联盟(历史版)
-                    <object><a href="https://gitee.com/daoke0818/pro_beijingyigonglm" target="_blank"
+                <li class="list-group-item"><a href="http://e-art.top/projects/yigonglianmeng/">北京义工联盟(历史版)
+                    <object><a href="https://gitee.com/daoke0818/pro_beijingyigonglm/" target="_blank"
                                title="码云上的源码"><i class="iconfont i-gitee_bg"></i></a></object>
                 </a></li>
-                <li class="list-group-item"><a href="http://e-art.top/projects/dingFuHuangZhuangHome">定福黄庄的小窝
-                    <object><a href="https://gitee.com/daoke0818/pro_dingFuHuangZhuangHome" target="_blank"
+                <li class="list-group-item"><a href="http://e-art.top/projects/dingFuHuangZhuangHome/">定福黄庄的小窝
+                    <object><a href="https://gitee.com/daoke0818/pro_dingFuHuangZhuangHome/" target="_blank"
                                title="码云上的源码"><i class="iconfont i-gitee_bg"></i></a></object>
                 </a></li>
-                <li class="list-group-item"><a href="http://e-art.top/projects/babyLiteracy">阿洛识字
-                    <object><a href="https://gitee.com/daoke0818/pro_babyLiteracy" target="_blank"
+                <li class="list-group-item"><a href="http://e-art.top/projects/babyLiteracy/">阿洛识字
+                    <object><a href="https://gitee.com/daoke0818/pro_babyLiteracy/" target="_blank"
                                title="码云上的源码"><i class="iconfont i-gitee_bg"></i></a></object>
                 </a></li>
-                <li class="list-group-item"><a href="http://e-art.top/projects/quickeningCounter">胎动计数器(半成品)</a></li>
+                <li class="list-group-item"><a href="http://e-art.top/projects/baby_literacy/">阿洛识字(新版)
+                    <object><a href="https://gitee.com/daoke0818/pro_baby_literacy" target="_blank"
+                               title="码云上的源码"><i class="iconfont i-gitee_bg"></i></a></object>
+                </a></li>
+                <li class="list-group-item"><a href="http://e-art.top/projects/quickeningCounter/">胎动计数器(半成品)</a></li>
 <!--                <li class="list-group-item disabled"><a href="">music++(挂起中。。。)</a></li>-->
             </ul>
         </section>
@@ -122,7 +128,6 @@
 
 </main>
 <footer></footer>
-<!--/usr/local/apache-tomcat-9.0.16/webapps/ROOT-->
 <!--兄弟，备案链接失效了，新的是：http://www.beian.miit.gov.cn
 顺便申请个友链，贵站已添加：http://www.e-art.top/page/friendlyLink.html-->
 
@@ -141,8 +146,12 @@
 <script src="js/common.js"></script>
 <script>
     $(function () {
+        if($(window).width()>=576){
+            $('.bgVideo').append(`
+                <video muted autoplay class="d-md-block" loop src="video/SF_SutroBaths-4K_nimia_573584_768_ZH-CN.mp4"></video>
+            `);
+        }
     })
-
 </script>
 </body>
 </html>
