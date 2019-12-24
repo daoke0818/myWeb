@@ -55,6 +55,30 @@
       "url": "https://cn.vuejs.org"
     },
     {
+      "name": "React",
+      "disc": "用于构建用户界面的 JavaScript 库",
+      "imgSrc": "https://zh-hans.reactjs.org/favicon.ico",
+      "url": "https://zh-hans.reactjs.org/"
+    },
+    {
+      "name": "Xftp和Xshell家庭和学校免费版下载",
+      "disc": "强大的操作服务器的客户端工具",
+      "imgSrc": "../img/logo_xftp.png",
+      "url": "https://www.netsarang.com/zh/free-for-home-school/"
+    },
+    {
+      "name": "Node.js 下载",
+      "disc": "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时。",
+      "imgSrc": "http://static.nodejs.cn/_static/img/logo.svg",
+      "url": "http://nodejs.cn/download/"
+    },
+    {
+      "name": "Git下载",
+      "disc": "Git是一个免费的开源分布式版本控制系统，可以快速高效地处理从小型到大型的项目。",
+      "imgSrc": "https://git-scm.com/images/logo@2x.png",
+      "url": "https://git-scm.com/downloads"
+    },
+    {
       "name": "下载musicPro",
       "disc": "一款音乐软件",
       "imgSrc": "http://e-art.top/img/logo_v0.1_w.png",
