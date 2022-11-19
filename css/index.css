@@ -82,7 +82,9 @@ header h1 {
 .top:hover {
     height: 24rem;
 }
-
+.top:hover ~ .bottom{
+    height: 12rem;
+}
 @media screen and (max-width: 1599px) {
     .container > .row {
         height: 13rem;

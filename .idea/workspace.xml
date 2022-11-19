@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ede556d6-fb7e-4373-88a3-1ba0df3c4b5b" name="Default" comment="优化背景和视频的加载">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/friendlyLink.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/friendlyLink.json" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,47 +27,35 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1RsEfG2AbkG9sfVdtHnG0v9mZD9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/friendlyLink" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "I:/git/myWeb",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="B:\git\myWeb\img\friendlyLink" />
-      <recent name="B:\git\myWeb\data" />
-      <recent name="B:\git\myWeb\page" />
       <recent name="B:\git\myWeb\img" />
+      <recent name="B:\git\myWeb\data" />
+      <recent name="B:\git\myWeb\img\friendlyLink" />
+      <recent name="B:\git\myWeb\page" />
       <recent name="B:\git\myWeb\home\myWeb\data" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -159,6 +145,19 @@
       <method />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -213,6 +212,12 @@
       <workItem from="1571702279658" duration="2212000" />
       <workItem from="1571751785226" duration="5200000" />
       <workItem from="1571785732564" duration="13038000" />
+      <workItem from="1577108394724" duration="87000" />
+      <workItem from="1577108543741" duration="3137000" />
+      <workItem from="1577196945173" duration="2320000" />
+      <workItem from="1578921236112" duration="13000" />
+      <workItem from="1579442359208" duration="7000" />
+      <workItem from="1668868734103" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1517112585285</created>
@@ -543,7 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571794200193</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="增加古典音乐笔记链接">
+      <created>1577113680488</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1577113680488</updated>
+    </task>
+    <task id="LOCAL-00049" summary="网站链接增加xshell/xftp,git,react,nodejs">
+      <created>1577198796140</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1577198796140</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -556,7 +575,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -574,7 +593,17 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -598,8 +627,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="友情链接页面效果确定" />
-    <MESSAGE value="首页媒体查询代码整理；移动端样式调整" />
     <MESSAGE value="增加常用网址页面" />
     <MESSAGE value="video标签写上autoplay属性会导致即使隐藏了整个标签，仍然会在手机QQ浏览器中自动播放出来，所以采取js判断是否移动端屏幕而往里面加视频标签的方法。其它小bug" />
     <MESSAGE value="替换风筝图片，线条描边收窄" />
@@ -623,6 +650,8 @@
     <MESSAGE value="v-cloak 加权重" />
     <MESSAGE value="把所有页面的shortcut icon写在js里异步加载。" />
     <MESSAGE value="优化背景和视频的加载" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化背景和视频的加载" />
+    <MESSAGE value="增加古典音乐笔记链接" />
+    <MESSAGE value="网站链接增加xshell/xftp,git,react,nodejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="网站链接增加xshell/xftp,git,react,nodejs" />
   </component>
 </project>
